@@ -1,0 +1,11 @@
+[build]
+publish = "public"
+command = "./deploy.sh"
+
+[context.production.environment]
+HUGO_VERSION = "0.46"
+YARN_VERSION = "1.9.4"
+
+[context.branch-deploy.environment]
+HUGO_VERSION = "0.46"
+YARN_VERSION = "1.9.4"

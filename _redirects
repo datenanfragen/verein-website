@@ -1,0 +1,9 @@
+# Force https
+http://verein.datenanfragen.de/*  https://verein.datenanfragen.de/:splat 301!
+
+# Configure language rewrites
+/*  /de/:splat 200
+
+# Set 404 pages
+/en/*  /en/404.html 404
+/*  /de/404.html 404
