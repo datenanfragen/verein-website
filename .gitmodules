@@ -1,0 +1,3 @@
+[submodule "themes/chitin"]
+	path = themes/chitin
+	url = https://github.com/datenanfragen/chitin.git
