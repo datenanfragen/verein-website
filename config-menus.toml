@@ -1,3 +1,13 @@
+[[languages.de.menu.topbar]]
+    name = "Satzung"
+    url = "/statutes"
+    weight = 50
+
+[[languages.de.menu.topbar]]
+    name = "Spenden"
+    url = "/donate"
+    weight = 10
+
 [[languages.de.menu.footerleft]]
     name = "Artikel"
     url = "/blog"
@@ -15,14 +25,14 @@
 #     name = "Mitmachen"
 #     url = "#"
 #     weight = 30
-# [[languages.de.menu.footercenter]]
-#     name = "Spenden"
-#     url = "https://verein.datenanfragen.de/spenden"
-#     weight = 40
-#     post = "<br>"
+ [[languages.de.menu.footercenter]]
+     name = "Spenden"
+     url = "/spenden"
+     weight = 40
+     post = "<br>"
 [[languages.de.menu.footercenter]]
-    name = "Deine DSGVO-Rechte"
-    url = "/blog/deine-dsgvo-rechte"
+    name = "Transparenz"
+    url = "/transparency"
     weight = 50
 # [[languages.de.menu.footercenter]]
 #     name = "Musterschreiben"
@@ -39,6 +49,16 @@
     weight = 20
 
 # ----------------------------------------------------------------------------------------------------------------------
+
+[[languages.en.menu.topbar]]
+    name = "Statutes"
+    url = "/statutes"
+    weight = 50
+
+[[languages.en.menu.topbar]]
+    name = "Donate"
+    url = "/donate"
+    weight = 10
 
 [[languages.en.menu.footerleft]]
     name = "Posts"
