@@ -22,7 +22,7 @@ Diese Informationen sind auch in unserem [Impressum]({{< ref "contact" >}}) zu f
 
 ## 2. Satzung und Ziele
 
-Die vollständige Satzung veröffentlichen wir auf [dieser Webseite]({{< ref "statutes" >}}) sowie auf [github](https://github.com/datenanfragen/verein/blob/master/satzung.md) mit dem Änderungsverlauf in den Commits.
+Die vollständige Satzung veröffentlichen wir auf [dieser Webseite]({{< ref "constitution" >}}) sowie auf [github](https://github.com/datenanfragen/verein/blob/master/satzung.md) mit dem Änderungsverlauf in den Commits.
 
 Unsere Ziele entsprechen den Zwecken, die die Satzung festlegt, wir haben sie aber [hier]({{< ref "mission-statement" >}}) nochmal heruntergebrochen und ausgeführt.
 

@@ -1,11 +1,11 @@
 [[languages.de.menu.topbar]]
     name = "Satzung"
-    url = "/statutes"
+    url = "/satzung"
     weight = 50
 
 [[languages.de.menu.topbar]]
     name = "Spenden"
-    url = "/donate"
+    url = "/spenden"
     weight = 10
 
 [[languages.de.menu.footerleft]]
@@ -51,8 +51,8 @@
 # ----------------------------------------------------------------------------------------------------------------------
 
 [[languages.en.menu.topbar]]
-    name = "Statutes"
-    url = "/statutes"
+    name = "Constitution"
+    url = "/constitution"
     weight = 50
 
 [[languages.en.menu.topbar]]

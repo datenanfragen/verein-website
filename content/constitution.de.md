@@ -1,15 +1,12 @@
 {
-    "title": "Statutes",
+    "title": "Satzung",
+    "aliases": ["satzung"],
     "type": "page"
 }
 
-These are the statutes which are legally binding to our non-profit. The legally binding version is in German and can be requested a the local district court in Braunschweig, Germany.
-
-<!-- TODO: Translate -->
-
 ## 1. Name, Sitz und Geschäftsjahr
 
-**1.1** Der Verein soll den Namen „[Datenanfragen.de](https://www.datenanfragen.de) e. V.“ führen.
+**1.1** Der Verein soll den Namen „Datenanfragen.de e.&nbsp;V.“ führen.
 
 **1.2** Der Verein hat seinen Sitz in Braunschweig. Er wurde am 14. Juni 2018 errichtet.
 
@@ -83,8 +80,8 @@ b) die Mitgliederversammlung.
 
 **7.1** Der Vorstand setzt sich zusammen aus:
 
-a) zwei Vorsitzenden, welche den geschäftsführenden Vorstand als Vorstand im Sinne des § 26 BGB bilden, sowie  
-b) beliebig vielen Beisitzer_innen, die dem erweiterten Vorstand, nicht aber dem vertretungsberechtigten Vorstand nach § 26 BGB angehören.
+a) zwei Vorsitzenden, welche den geschäftsführenden Vorstand als Vorstand im Sinne des §&nbsp;26 BGB bilden, sowie  
+b) beliebig vielen Beisitzer_innen, die dem erweiterten Vorstand, nicht aber dem vertretungsberechtigten Vorstand nach §&nbsp;26 BGB angehören.
 
 **7.2** Der Verein wird gerichtlich und außergerichtlich durch die Vorsitzenden gemeinschaftlich vertreten. Auf Beschluss des Vorstandes oder der Mitgliederversammlung kann das Vertretungsrecht im Rahmen einer definierten Aufgabe auch an ein einzelnes Vorstandsmitglied delegiert werden.
 
@@ -153,7 +150,7 @@ d) Beschlussfassung über die Änderung der Satzung und über die Auflösung des
 
 **16.1** Die Auflösung des Vereins kann nur in einer Mitgliederversammlung mit der im Abschnitt 12 festgelegten Stimmenmehrheit beschlossen werden. Sofern die Mitgliederversammlung nichts anderes beschließt, sind die Vorsitzenden gemeinsam vertretungsberechtigte Liquidator_innen. Die vorstehenden Vorschriften gelten entsprechend für den Fall, dass der Verein aus einem anderen Grund aufgelöst wird oder seine Rechtsfähigkeit verliert.
 
-**16.2** Bei Auflösung des Vereins oder bei Wegfall steuerbegünstigter Zwecke fällt das Vermögen des Vereins an eine juristische Person des öffentlichen Rechts oder eine andere steuerbegünstigte Körperschaft zwecks Verwendung zur Förderung des demokratischen Staatswesens im Sinne des § 52 Abs. 2 Nr. 24 AO.
+**16.2** Bei Auflösung des Vereins oder bei Wegfall steuerbegünstigter Zwecke fällt das Vermögen des Vereins an eine juristische Person des öffentlichen Rechts oder eine andere steuerbegünstigte Körperschaft zwecks Verwendung zur Förderung des demokratischen Staatswesens im Sinne des §&nbsp;52 Abs.&nbsp;2 Nr.&nbsp;24 AO.
 
 ## 17. OpenPGP-Keys
 

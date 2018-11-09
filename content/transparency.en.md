@@ -22,7 +22,7 @@ This information is also avilable in our [imprint]({{< ref "contact" >}}).
 
 ## 2. Statutes and Objectives
 
-We publish the complete statues of our association on [this webpage]({{< ref "statutes" >}}) and on [github](https://github.com/datenanfragen/verein/blob/master/satzung.md), where you will also find a change history in the commits.
+We publish the complete statues of our association on [this webpage]({{< ref "constitution" >}}) and on [github](https://github.com/datenanfragen/verein/blob/master/satzung.md), where you will also find a change history in the commits.
 
 Our objectives are the same as stated in our statues but we also compiled and explained them [here]({{< ref "mission-statement" >}}).  
 
