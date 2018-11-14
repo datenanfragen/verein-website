@@ -151,7 +151,7 @@ d) deciding on potential amendments to the constitution, as well as a potential 
 
 ## 15. Liability
 
-**15.1** Volunteers, including the honorary board, are liable for damages, which they cause during their activity in the association, only for intent and gross negligence and are otherwise released from liability.
+**15.1** Volunteers, including the honorary board, are liable for damages which they cause during their activity in the association only for intent and gross negligence and are otherwise released from liability.
 
 ## 16. Dissolution of the association and devolution of the assets
 

@@ -1,0 +1,155 @@
+{{ define "title" }}{{ T "donate-heading" }} &middot; {{ .Site.Title }}{{ end }}
+{{ define "heading" }}{{ T "donate-heading" }}{{ end }}
+
+{{ define "main" }}
+<!-- TODO: i18n -->
+
+<main class="narrow-page">
+TODO: Explanation
+
+<form id="donation-form" class="box" style="margin: 40px 0;">
+	<div id="donation-form-amount-section" class="donation-form-section">
+		<h2>Wie viel möchtest Du spenden?</h2>
+		<div class="col60 donation-form-main-column">
+			<div class="input-addon-container">
+				<input id="donation-form-amount" type="number" step="0.01" min="0.00" class="form-element" style="text-align: right;">
+				<div class="input-addon">€</div>
+			</div>
+
+			<div id="donation-form-amount-buttons"></div>
+		</div>
+		<div class="col40 donation-form-info-column">
+			<p>Dir werden <em>einmalig</em> <span id="donation-form-info-amount-value"></span>&nbsp;€ abgebucht.</p>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+
+	<div id="donation-form-payment-method-section" class="donation-form-section">
+		<h2>Wie möchtest Du bezahlen?</h2>
+		<div class="col60 donation-form-main-column">
+			<div id="donation-form-payment-method-buttons" class="radio-group radio-group-vertical"></div>
+		</div>
+		<div class="col40 donation-form-info-column">
+			<!-- TODO: Change according to which payment method the user selected. -->
+			<p>Im nächsten Schritt leiten wir Dich zu unserem Partner Checkoutportal weiter, bei dem Du Deine Zahlung dann abschließen kannst.</p>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+
+	<!-- TODO: How about offering to add a comment to a donation? That should be pretty easy to implement since we already have yace which is explicitly designed with the necessary flexibilty to do something like this in mind. -->
+
+	<div class="donation-form-section" style="margin-top: 30px;">
+		<button id="donation-form-next-button" class="button-primary" style="float: right;">Zum nächsten Schritt</button>
+	</div>
+	<div class="clearfix"></div>
+</form>
+
+TODO: Q&A
+</main>
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+	const SUGGESTED_AMOUNTS = [ 5, 10, 15, 25, 50, 75, 100, 150, 200, 250 ];
+	const PAYMENT_METHODS = [ 'bank-transfer', 'credit-card', 'paypal' ];
+
+	document.getElementById('donation-form-amount').oninput = function(e) {
+		document.querySelectorAll('#donation-form-amount-buttons > button').forEach(function(button) { button.classList.remove('button-primary'); });
+		if(SUGGESTED_AMOUNTS.includes(parseFloat(e.target.value))) {
+			document.getElementById('donation-form-amount-button-' + e.target.value).classList.add('button-primary');
+		}
+		document.getElementById('donation-form-info-amount-value').innerText = Number.parseFloat(e.target.value).toFixed(2).toLocaleString();
+	}
+
+	window.onload = function() {
+		SUGGESTED_AMOUNTS.forEach(function(amount) {
+			let btn = document.createElement('button');
+			btn.id = 'donation-form-amount-button-' + amount;
+			btn.innerText = amount + ' €';
+			btn.onclick = function(e) {
+				e.preventDefault();
+				let el = document.getElementById('donation-form-amount');
+				el.value = amount;
+				el.dispatchEvent(new Event('input'));
+			};
+			document.getElementById('donation-form-amount-buttons').appendChild(btn);
+		});
+
+		PAYMENT_METHODS.forEach(function (payment_method) {
+			let id = 'payment-method-choice-' + payment_method;
+
+			let label = document.createElement('label');
+			label.id = id + '-label';
+			label.htmlFor = id;
+			label.classList.add('radio-label');
+			label.innerText = payment_method; // TODO: i18n?!
+
+			let input = document.createElement('input');
+			input.id = id;
+			input.type = 'radio';
+			input.name = 'payment-method';
+			input.value = payment_method;
+			input.onchange = function(e) {
+				document.querySelectorAll('#donation-form-payment-method-buttons > label.radio-label').forEach(function(el) { el.classList.remove('active'); });
+				document.getElementById('payment-method-choice-' + payment_method + '-label').classList.add('active');
+			};
+			input.classList.add('form-element');
+
+			label.appendChild(input);
+
+			document.getElementById('donation-form-payment-method-buttons').appendChild(label);
+		});
+
+		document.querySelector('#donation-form-payment-method-buttons input[type=radio]').checked = true;
+		document.querySelector('#donation-form-payment-method-buttons > label.radio-label').classList.add('active');
+
+		document.getElementById('donation-form-next-button').onclick = handlePayment;
+
+		let amount_input = document.getElementById('donation-form-amount');
+		amount_input.value = 15.00;
+		amount_input.dispatchEvent(new Event('input'));
+	};
+
+	function handlePayment(e) {
+		e.preventDefault();
+		// TODO: Actually handle payment (e.g. redirect to gateway, display bank details or whatever).
+		switch(document.forms['donation-form'].elements['payment-method'].value) {
+			case 'bank-transfer':
+				console.log('You want to make a bank transfer. Great!');
+				break;
+		}
+	}
+</script>
+{{ end }}
+
+{{ define "styles" }}
+<style>
+#donation-form {
+	padding-bottom: 30px;
+}
+
+#donation-form h2 {
+	margin: 0 0 20px 0;
+}
+
+.donation-form-section {
+	margin: 20px 0;
+}
+
+#donation-form-amount-buttons {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#donation-form-amount-buttons > button {
+	padding: 15px;
+	margin-bottom: 10px;
+	width: 75px;
+}
+
+.donation-form-info-column > * {
+	margin: 10px 0 0 20px;
+}
+</style>
+{{ end }}

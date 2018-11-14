@@ -5,6 +5,11 @@ other = "img/logo-datenanfragen-ev.svg"
 [header-name]
 other = "Datenanfragen.de e. V."
 
+# Donate
+
+[donate-heading]
+other = "Spenden"
+
 # Footer
 
 [footer-about-us]
