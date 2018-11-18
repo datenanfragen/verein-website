@@ -2,13 +2,59 @@
 [logo]
 other = "img/logo-datenanfragen-ev.svg"
 
+# Header
+
 [header-name]
 other = "Datenanfragen.de e. V."
 
-# Donate
+# Donations
 
-[donate-heading]
-other = "Spenden"
+[donation-form-back]
+other = "Zurück zum Formular"
+
+[donation-form-how-much]
+other = 'Wieviel möchtest Du spenden?'
+
+[donation-form-how]
+other = 'Wie möchtest Du bezahlen?'
+
+[donation-bank-transfer-heading]
+other = "Zahlungsinformationen für Banküberweisungen"
+
+[donation-bank-transfer-recipient]
+other = "Empfänger"
+
+[donation-bank-transfer-financial-institution]
+other = "Geldinstitut"
+
+[donation-bank-transfer-reference]
+other = "Verwendungszweck"
+
+[donation-bank-transfer-amount]
+other = "Betrag"
+
+[donation-bank-transfer-qrcodes]
+other = "QR-Codes für die Überweisung"
+
+[donation-form-amount]
+other = 'Dir werden <em>einmalig</em> <span id="donation-form-info-amount-value"></span>&nbsp;€ abgebucht.'
+
+[donation-form-next-step]
+other = 'Zum nächsten Schritt'
+
+[donation-form-translations]
+other = '''{
+    "bank-transfer": "Banküberweisung",
+    "bank-transfer-info": "Im nächsten Schritt werden Dir unsere Bankdaten angezeigt, an die Du überweisen kannst.",
+    "paysafecard": "paysafecard",
+    "paysafecard-info": "Im nächsten Schritt leiten wir Dich an paysafecard weiter, wo du die Nummer einer gültigen paysafecard benötigst.",
+    "credit-card": "Kreditkarte",
+    "credit-card-info": "Im nächsten Schritt leiten wir Dich an unseren Dienstleister Checkoutportal weiter.",
+    "paypal": "PayPal",
+    "paypal-info": "Im nächsten Schritt leiten wir Dich an Paypal weiter.",
+    "cryptocurrency": "Cryptowährung",
+    "cryptocurrency-info": "Im nächsten Schritt leiten wir Dich an unseren Dienstleister CoinGate weiter."
+}'''
 
 # Footer
 

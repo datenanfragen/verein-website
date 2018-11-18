@@ -3,7 +3,7 @@
     "type": "page"
 }
 
-In order for you to be able to trust us, we pledged to be as transparent as possible about our procedures, finances and decisions. Because of that, we are part of the [Initiative for a Tranparent Civil Society](https://www.transparency.de/mitmachen/initiative-transparente-zivilgesellschaft/), an initiative by the German branch of Transparency International, which is allowed to audit us on a sample basis. They ensure that we will keep our promise of transparent management. On this page we summarized all the important information that we publish as part of that. This information has been last updated on November 6, 2018.
+In order for you to be able to trust us, we pledged to be as transparent as possible about our procedures, finances and decisions. Because of that, we are part of the [Initiative for a Transparent Civil Society](https://www.transparency.de/mitmachen/initiative-transparente-zivilgesellschaft/), an initiative by the German branch of Transparency International, which is allowed to audit us on a sample basis. They ensure that we will keep our promise of transparent management. On this page we summarized all the important information that we publish as part of that. This information has been last updated on November 6, 2018.
 
 ## 1. Name, registered seat, address and year of foundation
 This information is also avilable in our [imprint]({{< ref "contact" >}}).

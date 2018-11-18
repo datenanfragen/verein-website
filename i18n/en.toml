@@ -7,6 +7,55 @@ other = "img/logo-datenanfragen-ev.svg"
 [header-name]
 other = "Datenanfragen.de e. V."
 
+# Donations
+
+[donation-form-back]
+other = "Back to the form"
+
+[donation-form-how-much]
+other = 'How much do you want to donate?'
+
+[donation-form-how]
+other = 'How do you want to pay?'
+
+[donation-bank-transfer-heading]
+other = "Payment information for bank transfer"
+
+[donation-bank-transfer-recipient]
+other = "Recipient name"
+
+[donation-bank-transfer-financial-institution]
+other = "Financial institution"
+
+[donation-bank-transfer-reference]
+other = "Reference"
+
+[donation-bank-transfer-amount]
+other = "Amount"
+
+[donation-bank-transfer-qrcodes]
+other = "QR-codes for the transfer"
+
+[donation-form-amount]
+other = 'You will be billed <span id="donation-form-info-amount-value"></span>&nbsp;€ <em>once</em>.'
+
+[donation-form-next-step]
+other = 'To the next step'
+
+[donation-form-translations]
+other = '''{
+    "bank-transfer": "Bank transfer",
+    "bank-transfer-info": "In the next step we are going to show you our bank details so that you can transfer your donation.",
+    "paysafecard": "paysafecard",
+    "paysafecard-info": "In the next step we will redirect you to paysafecard, where you will need the number of a valid paysafecard.",
+    "credit-card": "Credit card",
+    "credit-card-info": "In the next step we redirect you to our partner Checkoutportal.",
+    "paypal": "PayPal",
+    "paypal-info": "In the next step we redirect you to PayPal.",
+    "cryptocurrency": "Crypto currency",
+    "cryptocurrency-info": "In the next step we redirect you to our partner CoinGate."
+}'''
+
 # Footer
 
 [footer-about-us]

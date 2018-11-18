@@ -4,6 +4,28 @@
 @import "icons";
 @import "layout";
 
+#bank-transfer-data-table {
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
+    td {
+        border: 1px dotted $primary-color;
+        padding: 7px;
 
+        &:first-child {
+            min-width: 160px;
+        }
+    }
+}
 
+#bank-transfer-qrcodes {
+    margin: auto;
+    max-width: 552px;
+
+    .bank-transfer-qrcode {
+        float: left;
+        text-align: center;
+        margin: 10px;
+    }
+}

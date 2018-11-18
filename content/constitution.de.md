@@ -1,6 +1,7 @@
 {
     "title": "Satzung",
-    "aliases": ["satzung"],
+    "slug": "satzung",
+    "aliases": ["constitution"],
     "type": "page"
 }
 

@@ -1,57 +1,82 @@
-{{ define "title" }}{{ T "donate-heading" }} &middot; {{ .Site.Title }}{{ end }}
-{{ define "heading" }}{{ T "donate-heading" }}{{ end }}
 
 {{ define "main" }}
-<!-- TODO: i18n -->
-
 <main class="narrow-page">
-TODO: Explanation
 
-<form id="donation-form" class="box" style="margin: 40px 0;">
-	<div id="donation-form-amount-section" class="donation-form-section">
-		<h2>Wie viel möchtest Du spenden?</h2>
-		<div class="col60 donation-form-main-column">
-			<div class="input-addon-container">
-				<input id="donation-form-amount" type="number" step="0.01" min="0.00" class="form-element" style="text-align: right;">
-				<div class="input-addon">€</div>
-			</div>
+	{{ .Content }}
 
-			<div id="donation-form-amount-buttons"></div>
-		</div>
-		<div class="col40 donation-form-info-column">
-			<p>Dir werden <em>einmalig</em> <span id="donation-form-info-amount-value"></span>&nbsp;€ abgebucht.</p>
-		</div>
-	</div>
-	<div class="clearfix"></div>
+    <div id="donation-form-container" class="box" style="margin: 40px 0;">
+        <form id="donation-form">
+            <div id="donation-form-amount-section" class="donation-form-section">
+                <h2>{{ T "donation-form-how-much" }}</h2>
+                <div class="col60 donation-form-main-column">
+                    <div class="input-addon-container">
+                        <input name="amount" id="donation-form-amount" type="number" step="0.01" min="0.00" class="form-element" style="text-align: right;">
+                        <div class="input-addon">€</div>
+                    </div>
 
-	<div id="donation-form-payment-method-section" class="donation-form-section">
-		<h2>Wie möchtest Du bezahlen?</h2>
-		<div class="col60 donation-form-main-column">
-			<div id="donation-form-payment-method-buttons" class="radio-group radio-group-vertical"></div>
-		</div>
-		<div class="col40 donation-form-info-column">
-			<!-- TODO: Change according to which payment method the user selected. -->
-			<p>Im nächsten Schritt leiten wir Dich zu unserem Partner Checkoutportal weiter, bei dem Du Deine Zahlung dann abschließen kannst.</p>
-		</div>
-	</div>
-	<div class="clearfix"></div>
+                    <div id="donation-form-amount-buttons"></div>
+                </div>
+                <div class="col40 donation-form-info-column">
+                    <p>{{ T "donation-form-amount" | safeHTML }}</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
 
-	<!-- TODO: How about offering to add a comment to a donation? That should be pretty easy to implement since we already have yace which is explicitly designed with the necessary flexibilty to do something like this in mind. -->
+            <div id="donation-form-payment-method-section" class="donation-form-section">
+                <h2>{{ T "donation-form-how" }}</h2>
+                <div class="col60 donation-form-main-column">
+                    <div id="donation-form-payment-method-buttons" class="radio-group radio-group-vertical"></div>
+                </div>
+                <div class="col40 donation-form-info-column" id="donation-form-info-column">
+                </div>
+            </div>
+            <div class="clearfix"></div>
 
-	<div class="donation-form-section" style="margin-top: 30px;">
-		<button id="donation-form-next-button" class="button-primary" style="float: right;">Zum nächsten Schritt</button>
-	</div>
-	<div class="clearfix"></div>
-</form>
+            <!-- TODO: How about offering to add a comment to a donation? That should be pretty easy to implement since we already have yace which is explicitly designed with the necessary flexibilty to do something like this in mind. -->
 
-TODO: Q&A
+            <div class="donation-form-section" style="margin-top: 30px;">
+                <button id="donation-form-next-button" class="button-primary" style="float: right;">{{ T "donation-form-next-step" }}</button>
+            </div>
+            <div class="clearfix"></div>
+        </form>
+
+        <div id="bank-transfer-info" class="donation-form-section hidden">
+            <h2>{{ T "donation-bank-transfer-heading" }}</h2>
+            <table id="bank-transfer-data-table">
+                <tr><td>{{ T "donation-bank-transfer-recipient" }}</td><td>Datenanfragen.de e.&thinsp;V.</td></tr>
+                <tr><td>IBAN</td><td>DE42 8306 5408 0104 0851 40</td></tr>
+                <tr><td>{{ T "donation-bank-transfer-financial-institution" }}</td><td>Deutsche Skatbank Zweigniederlassung der VR-Bank Altenburger Land GbR</td></tr>
+                <tr><td>BIC</td><td>GENODEF1SLR</td></tr>
+                <tr><td>{{ T "donation-bank-transfer-reference" }}</td><td id="bank-transfer-donation-reference"></td></tr>
+                <tr><td>{{ T "donation-bank-transfer-amount" }}</td><td id="bank-transfer-donation-amount"></td></tr>
+            </table>
+
+            <h2>{{ T "donation-bank-transfer-qrcodes" }}</h2>
+
+            <div id="bank-transfer-qrcodes">
+                <div id="bank-transfer-epcr-qrcode" class="bank-transfer-qrcode"><strong>EPCR-QR-CODE</strong></div>
+                <div id="bank-transfer-bezahlcode-qrcode" class="bank-transfer-qrcode"><strong>BezahlCode</strong></div>
+                <div class="clearfix"></div>
+            </div>
+
+            <button id="donation-form-back-button" class="button-primary">{{ T "donation-form-back" }}</button>
+        </div>
+    </div>
+
+
+    {{ with .Resources.GetMatch "q-and-a*" }}{{ .Content }}{{ end }}
+
 </main>
 {{ end }}
 
 {{ define "scripts" }}
+<script type="text/javascript" src='{{ "js/qrcode.min.js" | absURL }}'></script>
 <script>
+	const TRANSLATIONS = JSON.parse({{ T "donation-form-translations" }});
+	const SERVERLESS_DONATIONS_API = "https://ja8w0nxp8h.execute-api.eu-central-1.amazonaws.com/test";
+
 	const SUGGESTED_AMOUNTS = [ 5, 10, 15, 25, 50, 75, 100, 150, 200, 250 ];
-	const PAYMENT_METHODS = [ 'bank-transfer', 'credit-card', 'paypal' ];
+	const PAYMENT_METHODS = [ 'bank-transfer', 'paysafecard', 'credit-card', 'paypal', 'cryptocurrency' ];
 
 	document.getElementById('donation-form-amount').oninput = function(e) {
 		document.querySelectorAll('#donation-form-amount-buttons > button').forEach(function(button) { button.classList.remove('button-primary'); });
@@ -59,7 +84,7 @@ TODO: Q&A
 			document.getElementById('donation-form-amount-button-' + e.target.value).classList.add('button-primary');
 		}
 		document.getElementById('donation-form-info-amount-value').innerText = Number.parseFloat(e.target.value).toFixed(2).toLocaleString();
-	}
+	};
 
 	window.onload = function() {
 		SUGGESTED_AMOUNTS.forEach(function(amount) {
@@ -82,7 +107,7 @@ TODO: Q&A
 			label.id = id + '-label';
 			label.htmlFor = id;
 			label.classList.add('radio-label');
-			label.innerText = payment_method; // TODO: i18n?!
+			label.innerText = TRANSLATIONS[payment_method]; // TODO: i18n?!
 
 			let input = document.createElement('input');
 			input.id = id;
@@ -92,6 +117,7 @@ TODO: Q&A
 			input.onchange = function(e) {
 				document.querySelectorAll('#donation-form-payment-method-buttons > label.radio-label').forEach(function(el) { el.classList.remove('active'); });
 				document.getElementById('payment-method-choice-' + payment_method + '-label').classList.add('active');
+				changeInfo(payment_method);
 			};
 			input.classList.add('form-element');
 
@@ -102,8 +128,16 @@ TODO: Q&A
 
 		document.querySelector('#donation-form-payment-method-buttons input[type=radio]').checked = true;
 		document.querySelector('#donation-form-payment-method-buttons > label.radio-label').classList.add('active');
+		changeInfo(PAYMENT_METHODS[0]);
 
 		document.getElementById('donation-form-next-button').onclick = handlePayment;
+
+        document.getElementById('donation-form-back-button').onclick = event => {
+            let bank_transfer_info = document.getElementById('bank-transfer-info');
+            let donation_form = document.getElementById('donation-form');
+            donation_form.classList.remove('hidden');
+            bank_transfer_info.classList.add('hidden');
+        };
 
 		let amount_input = document.getElementById('donation-form-amount');
 		amount_input.value = 15.00;
@@ -112,13 +146,150 @@ TODO: Q&A
 
 	function handlePayment(e) {
 		e.preventDefault();
-		// TODO: Actually handle payment (e.g. redirect to gateway, display bank details or whatever).
-		switch(document.forms['donation-form'].elements['payment-method'].value) {
+        let donation_form = document.getElementById('donation-form');
+        let amount_input = document.getElementById('donation-form-amount');
+        switch(document.forms['donation-form'].elements['payment-method'].value) {
 			case 'bank-transfer':
-				console.log('You want to make a bank transfer. Great!');
-				break;
-		}
+                let bank_transfer_info = document.getElementById('bank-transfer-info');
+                let reference_field = document.getElementById('bank-transfer-donation-reference');
+                let amount_field = document.getElementById('bank-transfer-donation-amount');
+                let donation_reference = 'Spende #' + Math.random().toString(36).substr(2, 15).toUpperCase();
+
+                reference_field.innerText = donation_reference;
+                amount_field.innerText = Number(amount_input.value).toLocaleString("{{ .Lang }}", {minimumFractionDigits: 2}) + ' €';
+
+			    donation_form.classList.add('hidden');
+			    bank_transfer_info.classList.remove('hidden');
+
+			    let epcr_qrcode = new QRCode(document.getElementById('bank-transfer-epcr-qrcode'), {
+                    text: epcrQrCode(amount_input.value, donation_reference),
+                    width: 256,
+                    height: 256,
+                    colorDark : "#000000",
+                    colorLight : "#ffffff",
+                    correctLevel : QRCode.CorrectLevel.M // see Specification
+                });
+
+                let bezahlcode = new QRCode(document.getElementById('bank-transfer-bezahlcode-qrcode'), {
+                    text: bezahlCode(amount_input.value, donation_reference),
+                    width: 256,
+                    height: 256,
+                    colorDark : "#000000",
+                    colorLight : "#ffffff",
+                    correctLevel : QRCode.CorrectLevel.M
+                });
+                break;
+			case 'paypal':
+			    clientPost('https://www.paypal.com/cgi-bin/webscr', {
+			        "amount": amount_input.value,
+			        "cmd": "_s-xclick",
+                    "hosted_button_id": "FS2ZF564BTDAC"
+                }, "_top");
+			    break;
+            case 'credit-card':
+                postRequest(SERVERLESS_DONATIONS_API, {
+                    payment_provider: "checkoutportal",
+                    data: {
+                        "language": "{{ .Lang }}",
+                        "amount": amount_input.value,
+                        "currency": "EUR",
+                        "orderDescription": "Spende für Datenanfragen.de e. V.",
+                        "successUrl": "https://webhook.site/04b42161-fb05-441b-9026-c3ba44367fea", // TODO: dynamic
+                        "cancelUrl": "https://webhook.site/04b42161-fb05-441b-9026-c3ba44367fea",
+                        "failureUrl": "https://webhook.site/04b42161-fb05-441b-9026-c3ba44367fea",
+                        "serviceUrl": "https://verein.datenanfragen.de/contact",
+                        "customerStatement": "Spende für Datenanfragen.de e. V.",
+                        "paymentType": "CCARD",
+                        "shopId": "3D"
+                    }
+                })
+                .then(data => {
+                    clientPost("https://checkout.wirecard.com/page/init.php", data);
+                }).catch(e => console.error(e)); // TODO: Error Handling
+                break;
+            case 'paysafecard':
+                postRequest(SERVERLESS_DONATIONS_API, {
+                    payment_provider: "paysafecard",
+                    data: {
+                        amount: amount_input.value,
+                        currency: "EUR",
+                        successUrl: "https://webhook.site/a7215847-0c86-4153-ba9b-167505235d78",
+                        failureUrl: "https://webhook.site/a7215847-0c86-4153-ba9b-167505235d78"
+                    }
+                }).then(data => {
+                    if(data) {
+                        window.location = data.auth_url;
+                    }
+                }).catch(e => console.error(e)); // TODO: Error Handling;
+                break;
+        }
 	}
+
+	function changeInfo(payment_method) {
+        let info = document.createElement('p');
+        info.appendChild(document.createTextNode(TRANSLATIONS[payment_method + '-info']));
+
+        let info_column = document.getElementById('donation-form-info-column');
+        info_column.replaceChild(info, info_column.firstChild);
+	}
+
+	function postRequest(url, data) {
+	    return fetch(url, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json; charset=utf-8",
+            },
+            body: JSON.stringify(data),
+        }).then(response => response.json());
+    }
+
+    // adapted from https://stackoverflow.com/a/133997
+    function clientPost(url, params, target) {
+        let form = document.createElement("form");
+        form.setAttribute("method", "POST");
+        form.setAttribute("action", url);
+        form.setAttribute("target", target || "_parent");
+
+        for(let key in params) {
+            if(params.hasOwnProperty(key)) {
+                let hiddenField = document.createElement("input");
+                hiddenField.setAttribute("type", "hidden");
+                hiddenField.setAttribute("name", key);
+                hiddenField.setAttribute("value", params[key]);
+
+                form.appendChild(hiddenField);
+            }
+        }
+
+        document.body.appendChild(form);
+        form.submit();
+        document.body.removeChild(form);
+    }
+
+    function epcrQrCode(amount, reference) {
+        return "BCD\n" // Service Code
+            + "002\n" // Version
+            + "1\n" // Encoding (1=UFT-8)
+            + "SCT\n" // SEPA Credit Transfer
+            + "GENODEF1SLR\n" // BIC
+            + "Datenanfragen.de e. V.\n" // Recipient (up to 70 characters)
+            + "DE42830654080104085140\n" // IBAN
+            + "EUR" + Number.parseFloat(amount).toFixed(2) + "\n" // Amount (format: EUR#.##)
+            + "CHAR\n" // AT-44 purpose code (CHAR is for charity reasons)
+            + "\n" // Creditor Reference
+            + reference + "\n" // Statement Reference
+            + "Spende an Datenanfragen.de e. V."; // Information to the user
+	}
+
+	function bezahlCode(amount, reference) {
+	    return "bank://singlepaymentsepa?"
+            + "name=" + encodeURIComponent("Datenanfragen.de e. V.")
+            + "&iban=DE42830654080104085140"
+            + "&bic=GENODEF1SLR"
+            + "&amount=" + encodeURIComponent(Number.parseFloat(amount).toFixed(2).replace('.', ','))
+            + "&reason=" + encodeURIComponent(reference)
+            + "&currency=EUR";
+    }
 </script>
 {{ end }}
 
