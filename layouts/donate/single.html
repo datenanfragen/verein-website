@@ -161,23 +161,32 @@
 			    donation_form.classList.add('hidden');
 			    bank_transfer_info.classList.remove('hidden');
 
-			    let epcr_qrcode = new QRCode(document.getElementById('bank-transfer-epcr-qrcode'), {
-                    text: epcrQrCode(amount_input.value, donation_reference),
-                    width: 256,
-                    height: 256,
-                    colorDark : "#000000",
-                    colorLight : "#ffffff",
-                    correctLevel : QRCode.CorrectLevel.M // see Specification
-                });
+                if(window.epcr_qrcode) {
+                    window.epcr_qrcode.makeCode(epcrQrCode(amount_input.value, donation_reference));
+                } else {
+                    window.epcr_qrcode = new QRCode(document.getElementById('bank-transfer-epcr-qrcode'), {
+                        text: epcrQrCode(amount_input.value, donation_reference),
+                        width: 256,
+                        height: 256,
+                        colorDark : "#000000",
+                        colorLight : "#ffffff",
+                        correctLevel : QRCode.CorrectLevel.M // see Specification
+                    });
+                }
 
-                let bezahlcode = new QRCode(document.getElementById('bank-transfer-bezahlcode-qrcode'), {
-                    text: bezahlCode(amount_input.value, donation_reference),
-                    width: 256,
-                    height: 256,
-                    colorDark : "#000000",
-                    colorLight : "#ffffff",
-                    correctLevel : QRCode.CorrectLevel.M
-                });
+                if(window.bezahlcode) {
+                    window.bezahlcode.makeCode(bezahlCode(amount_input.value, donation_reference));
+                } else {
+                    window.bezahlcode = new QRCode(document.getElementById('bank-transfer-bezahlcode-qrcode'), {
+                        text: bezahlCode(amount_input.value, donation_reference),
+                        width: 256,
+                        height: 256,
+                        colorDark : "#000000",
+                        colorLight : "#ffffff",
+                        correctLevel : QRCode.CorrectLevel.M
+                    });
+                }
+                
                 break;
 			case 'paypal':
 			    clientPost('https://www.paypal.com/cgi-bin/webscr', {
