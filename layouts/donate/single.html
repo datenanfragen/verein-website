@@ -29,6 +29,7 @@
                 </div>
                 <div class="col40 donation-form-info-column" id="donation-form-info-column">
                 </div>
+                <div id="donation-form-loader" class="lds-ring hidden"><div></div><div></div><div></div><div></div></div>
             </div>
             <div class="clearfix"></div>
 
@@ -42,7 +43,7 @@
 
         <div id="bank-transfer-info" class="donation-form-section hidden">
             <h2>{{ T "donation-bank-transfer-heading" }}</h2>
-            <table id="bank-transfer-data-table">
+            <table id="bank-transfer-data-table" cellspacing="0">
                 <tr><td>{{ T "donation-bank-transfer-recipient" }}</td><td>Datenanfragen.de e.&thinsp;V.</td></tr>
                 <tr><td>IBAN</td><td>DE42 8306 5408 0104 0851 40</td></tr>
                 <tr><td>{{ T "donation-bank-transfer-financial-institution" }}</td><td>Deutsche Skatbank Zweigniederlassung der VR-Bank Altenburger Land GbR</td></tr>
@@ -60,6 +61,7 @@
             </div>
 
             <button id="donation-form-back-button" class="button-primary">{{ T "donation-form-back" }}</button>
+            <button id="donation-form-print-button" class="button-secondary" onclick="printElementById('bank-transfer-info')">{{ T "donation-form-print" }}</button>
         </div>
     </div>
 
@@ -83,7 +85,7 @@
 		if(SUGGESTED_AMOUNTS.includes(parseFloat(e.target.value))) {
 			document.getElementById('donation-form-amount-button-' + e.target.value).classList.add('button-primary');
 		}
-		document.getElementById('donation-form-info-amount-value').innerText = Number.parseFloat(e.target.value).toFixed(2).toLocaleString();
+		document.getElementById('donation-form-info-amount-value').innerText = Number.parseFloat(e.target.value || 0).toFixed(2).toLocaleString();
 	};
 
 	window.onload = function() {
@@ -107,7 +109,7 @@
 			label.id = id + '-label';
 			label.htmlFor = id;
 			label.classList.add('radio-label');
-			label.innerText = TRANSLATIONS[payment_method]; // TODO: i18n?!
+			label.innerText = TRANSLATIONS[payment_method];
 
 			let input = document.createElement('input');
 			input.id = id;
@@ -146,8 +148,12 @@
 
 	function handlePayment(e) {
 		e.preventDefault();
+        if(window.ongoing_request) return;
+
         let donation_form = document.getElementById('donation-form');
         let amount_input = document.getElementById('donation-form-amount');
+        if(!amount_input.value) amount_input.value = 0; // Avoid NaNs
+
         switch(document.forms['donation-form'].elements['payment-method'].value) {
 			case 'bank-transfer':
                 let bank_transfer_info = document.getElementById('bank-transfer-info');
@@ -186,16 +192,19 @@
                         correctLevel : QRCode.CorrectLevel.M
                     });
                 }
-                
+
                 break;
 			case 'paypal':
-			    clientPost('https://www.paypal.com/cgi-bin/webscr', {
+                toggleRequest();
+                clientPost('https://www.paypal.com/cgi-bin/webscr', {
 			        "amount": amount_input.value,
 			        "cmd": "_s-xclick",
                     "hosted_button_id": "FS2ZF564BTDAC"
                 }, "_top");
-			    break;
+                toggleRequest();
+                break;
             case 'credit-card':
+                toggleRequest();
                 postRequest(SERVERLESS_DONATIONS_API, {
                     payment_provider: "checkoutportal",
                     data: {
@@ -214,9 +223,13 @@
                 })
                 .then(data => {
                     clientPost("https://checkout.wirecard.com/page/init.php", data);
-                }).catch(e => console.error(e)); // TODO: Error Handling
+                }).catch(e => {
+                    console.error(e);
+                    toggleRequest();
+                }); // TODO: Error Handling
                 break;
             case 'paysafecard':
+                toggleRequest();
                 postRequest(SERVERLESS_DONATIONS_API, {
                     payment_provider: "paysafecard",
                     data: {
@@ -226,10 +239,15 @@
                         failureUrl: "https://webhook.site/a7215847-0c86-4153-ba9b-167505235d78"
                     }
                 }).then(data => {
-                    if(data) {
+                    if(data && data.auth_url) {
                         window.location = data.auth_url;
+                    } else {
+                        throw 'Malformed response body: ' + data;
                     }
-                }).catch(e => console.error(e)); // TODO: Error Handling;
+                }).catch(e => {
+                    console.error(e);
+                    toggleRequest();
+                }); // TODO: Error Handling;
                 break;
         }
 	}
@@ -241,6 +259,20 @@
         let info_column = document.getElementById('donation-form-info-column');
         info_column.replaceChild(info, info_column.firstChild);
 	}
+
+	function toggleRequest(loader) {
+	    let donation_form_loader = document.getElementById('donation-form-loader');
+        let next_button = document.getElementById('donation-form-next-button');
+	    if(window.ongoing_request) {
+	        donation_form_loader.classList.add('hidden');
+	        next_button.classList.remove('disabled');
+	        window.ongoing_request = false;
+        } else {
+            donation_form_loader.classList.remove('hidden');
+            next_button.classList.add('disabled');
+            window.ongoing_request = true;
+        }
+    }
 
 	function postRequest(url, data) {
 	    return fetch(url, {
@@ -298,6 +330,23 @@
             + "&amount=" + encodeURIComponent(Number.parseFloat(amount).toFixed(2).replace('.', ','))
             + "&reason=" + encodeURIComponent(reference)
             + "&currency=EUR";
+    }
+
+    function printElementById(id) {
+	    // take from https://stackoverflow.com/a/12997207
+        let prtContent = document.getElementById(id);
+        let WinPrint = window.open('', '', 'left=0,top=0,width=800,height=900,toolbar=0,scrollbars=0,status=0');
+        let style = "<style>" +
+            "#bank-transfer-data-table td { border: 1px solid #000; padding: 10px; } " +
+            "button { display: none; } " +
+            "#bank-transfer-qrcodes { margin: auto; max-width: 672px; } " +
+            ".bank-transfer-qrcode { float: left; text-align: center; margin: 40px; } " +
+            "</style>";
+        WinPrint.document.write(style + prtContent.innerHTML);
+        WinPrint.document.close();
+        WinPrint.focus();
+        WinPrint.print();
+        WinPrint.close();
     }
 </script>
 {{ end }}

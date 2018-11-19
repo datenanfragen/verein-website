@@ -42,6 +42,9 @@ other = 'You will be billed <span id="donation-form-info-amount-value"></span>&n
 [donation-form-next-step]
 other = 'To the next step'
 
+[donation-form-print]
+other = 'Print transfer information'
+
 [donation-form-translations]
 other = '''{
     "bank-transfer": "Bank transfer",

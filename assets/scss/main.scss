@@ -3,6 +3,7 @@
 @import "elements";
 @import "icons";
 @import "layout";
+@import "loader";
 
 #bank-transfer-data-table {
     border-radius: 4px;
@@ -21,11 +22,18 @@
 
 #bank-transfer-qrcodes {
     margin: auto;
-    max-width: 552px;
+    max-width: 672px;
 
     .bank-transfer-qrcode {
         float: left;
         text-align: center;
-        margin: 10px;
+        margin: 40px;
     }
+}
+
+#donation-form-loader {
+    width: 64px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
 }

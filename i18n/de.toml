@@ -42,6 +42,9 @@ other = 'Dir werden <em>einmalig</em> <span id="donation-form-info-amount-value"
 [donation-form-next-step]
 other = 'Zum nächsten Schritt'
 
+[donation-form-print]
+other = 'Überweisungsinformationen drucken'
+
 [donation-form-translations]
 other = '''{
     "bank-transfer": "Banküberweisung",
