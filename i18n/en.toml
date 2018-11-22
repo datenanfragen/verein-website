@@ -50,14 +50,26 @@ other = '''{
     "bank-transfer": "Bank transfer",
     "bank-transfer-info": "In the next step we are going to show you our bank details so that you can transfer your donation.",
     "paysafecard": "paysafecard",
-    "paysafecard-info": "In the next step we will redirect you to paysafecard, where you will need the number of a valid paysafecard.",
-    "credit-card": "Credit card",
-    "credit-card-info": "In the next step we redirect you to our partner Checkoutportal.",
+    "paysafecard-info": "In the next step we will redirect you to our partner mollie.",
+    "creditcard": "Credit card",
+    "creditcard-info": "In the next step we redirect you to our partner mollie.",
     "paypal": "PayPal",
-    "paypal-info": "In the next step we redirect you to PayPal.",
+    "paypal-info": "In the next step we will redirect you to PayPal.",
     "cryptocurrency": "Crypto currency",
-    "cryptocurrency-info": "In the next step we redirect you to our partner CoinGate."
+    "cryptocurrency-info": "In the next step we will redirect you to our partner CoinGate.",
+    "directdebit": "SEPA direct debit",
+    "directdebit-info": "In the next step we will redirect you to our partner mollie. If you want to pay recurringly, consider becoming a member.",
+    "mollie": "Other payments",
+    "mollie-info": "Our partner mollie offers several other payments, including SOFORT Überweisung, giropay, iDEAL, EPS, CDC and Bancontact."
 }'''
+
+# Thanks
+
+[request-donation-verification]
+other = "Request donation verification"
+
+[download-simplified-donation-verification]
+other = "Download simplified donation verification"
 
 # Footer
 

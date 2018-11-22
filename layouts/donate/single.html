@@ -75,10 +75,10 @@
 <script type="text/javascript" src='{{ "js/qrcode.min.js" | absURL }}'></script>
 <script>
 	const TRANSLATIONS = JSON.parse({{ T "donation-form-translations" }});
-	const SERVERLESS_DONATIONS_API = "https://ja8w0nxp8h.execute-api.eu-central-1.amazonaws.com/test";
+	const SERVERLESS_DONATIONS_API = "https://ohboz97er1.execute-api.eu-central-1.amazonaws.com/test";
 
 	const SUGGESTED_AMOUNTS = [ 5, 10, 15, 25, 50, 75, 100, 150, 200, 250 ];
-	const PAYMENT_METHODS = [ 'bank-transfer', 'paysafecard', 'credit-card', 'paypal', 'cryptocurrency' ];
+	const PAYMENT_METHODS = [ 'bank-transfer', 'paysafecard', 'directdebit', 'creditcard', 'paypal', 'cryptocurrency', 'mollie' ];
 
 	document.getElementById('donation-form-amount').oninput = function(e) {
 		document.querySelectorAll('#donation-form-amount-buttons > button').forEach(function(button) { button.classList.remove('button-primary'); });
@@ -89,6 +89,31 @@
 	};
 
 	window.onload = function() {
+        let donation_reference = findGetParameter('donation_reference');
+        if(!!donation_reference) {
+            getRequest(SERVERLESS_DONATIONS_API + '/state/' + donation_reference)
+                .then(response => {
+                    if(response && response.status) {
+                        switch (response.status) {
+                            case 'paid':
+                                window.location = "{{ ref . "thanks" }}?donation_reference=" + response.reference;
+                                break;
+                            case 'failed':
+                                // TODO: Inform the user properly
+                                alert('Payment failed.');
+                                break;
+                            case 'expired':
+                                // TODO: Inform the user
+                        }
+                    } else {
+                        throw {message: 'Malformed response body.', data: data};
+                    }
+                })
+                .catch(error => {
+                    console.log(error);
+                }); // TODO: Error Handling
+        }
+
 		SUGGESTED_AMOUNTS.forEach(function(amount) {
 			let btn = document.createElement('button');
 			btn.id = 'donation-form-amount-button-' + amount;
@@ -150,28 +175,27 @@
 		e.preventDefault();
         if(window.ongoing_request) return;
 
-        let donation_form = document.getElementById('donation-form');
-        let amount_input = document.getElementById('donation-form-amount');
-        if(!amount_input.value) amount_input.value = 0; // Avoid NaNs
+        let donation_reference = almostUniqueId();
+        let amount = isNaN(document.forms['donation-form'].elements['amount'].value) ? 0 : document.forms['donation-form'].elements['amount'].value;
+        let payment_method = document.forms['donation-form'].elements['payment-method'].value;
 
-        switch(document.forms['donation-form'].elements['payment-method'].value) {
+        switch(payment_method) {
 			case 'bank-transfer':
                 let bank_transfer_info = document.getElementById('bank-transfer-info');
                 let reference_field = document.getElementById('bank-transfer-donation-reference');
                 let amount_field = document.getElementById('bank-transfer-donation-amount');
-                let donation_reference = 'Spende #' + Math.random().toString(36).substr(2, 15).toUpperCase();
 
-                reference_field.innerText = donation_reference;
-                amount_field.innerText = Number(amount_input.value).toLocaleString("{{ .Lang }}", {minimumFractionDigits: 2}) + ' €';
+                reference_field.innerText = 'Spende #' + donation_reference;
+                amount_field.innerText = Number(amount).toLocaleString("{{ .Lang }}", {minimumFractionDigits: 2}) + ' €';
 
-			    donation_form.classList.add('hidden');
+                document.forms['donation-form'].classList.add('hidden');
 			    bank_transfer_info.classList.remove('hidden');
 
                 if(window.epcr_qrcode) {
-                    window.epcr_qrcode.makeCode(epcrQrCode(amount_input.value, donation_reference));
+                    window.epcr_qrcode.makeCode(epcrQrCode(amount, 'Spende #' + donation_reference));
                 } else {
                     window.epcr_qrcode = new QRCode(document.getElementById('bank-transfer-epcr-qrcode'), {
-                        text: epcrQrCode(amount_input.value, donation_reference),
+                        text: epcrQrCode(amount, donation_reference),
                         width: 256,
                         height: 256,
                         colorDark : "#000000",
@@ -184,7 +208,7 @@
                     window.bezahlcode.makeCode(bezahlCode(amount_input.value, donation_reference));
                 } else {
                     window.bezahlcode = new QRCode(document.getElementById('bank-transfer-bezahlcode-qrcode'), {
-                        text: bezahlCode(amount_input.value, donation_reference),
+                        text: bezahlCode(amount, donation_reference),
                         width: 256,
                         height: 256,
                         colorDark : "#000000",
@@ -197,57 +221,47 @@
 			case 'paypal':
                 toggleRequest();
                 clientPost('https://www.paypal.com/cgi-bin/webscr', {
-			        "amount": amount_input.value,
+			        "amount": amount,
 			        "cmd": "_s-xclick",
                     "hosted_button_id": "FS2ZF564BTDAC"
                 }, "_top");
                 toggleRequest();
                 break;
-            case 'credit-card':
+            case 'mollie':
+                payment_method = ['sofort', 'giropay', 'eps', 'bancontact', 'ideal', 'kbc', 'belfius', 'inghomepay'];
+                // break intenionally left out
+            case 'creditcard':
+            case 'directdebit':
+            case 'paysafecard':
+                //alert('This feature is currently under development');
+                //break;
                 toggleRequest();
                 postRequest(SERVERLESS_DONATIONS_API, {
-                    payment_provider: "checkoutportal",
+                    payment_provider: "mollie",
                     data: {
-                        "language": "{{ .Lang }}",
-                        "amount": amount_input.value,
-                        "currency": "EUR",
-                        "orderDescription": "Spende für Datenanfragen.de e. V.",
-                        "successUrl": "https://webhook.site/04b42161-fb05-441b-9026-c3ba44367fea", // TODO: dynamic
-                        "cancelUrl": "https://webhook.site/04b42161-fb05-441b-9026-c3ba44367fea",
-                        "failureUrl": "https://webhook.site/04b42161-fb05-441b-9026-c3ba44367fea",
-                        "serviceUrl": "https://verein.datenanfragen.de/contact",
-                        "customerStatement": "Spende für Datenanfragen.de e. V.",
-                        "paymentType": "CCARD",
-                        "shopId": "3D"
+                        "locale": "{{ .Param "mollieLocale" }}",
+                        "amount": {
+                            "value": Number(amount).toFixed(2),
+                            "currency": "EUR",
+                        },
+                        "description": "Spende für Datenanfragen.de e. V.",
+                        "redirectUrl": "http://localhost:1313/donate/?donation_reference=" + donation_reference, // TODO: dynamic {{ "donate" | absURL }}
+                        "method": payment_method,
+                        "metadata": {
+                            "donation_reference": donation_reference
+                        }
                     }
                 })
-                .then(data => {
-                    clientPost("https://checkout.wirecard.com/page/init.php", data);
-                }).catch(e => {
+                    .then(data => {
+                        if(data && data.auth_url) {
+                            window.location = data.auth_url;
+                        } else {
+                            throw {message: 'Malformed response body.', data: data};
+                        }
+                    }).catch(e => {
                     console.error(e);
                     toggleRequest();
                 }); // TODO: Error Handling
-                break;
-            case 'paysafecard':
-                toggleRequest();
-                postRequest(SERVERLESS_DONATIONS_API, {
-                    payment_provider: "paysafecard",
-                    data: {
-                        amount: amount_input.value,
-                        currency: "EUR",
-                        successUrl: "https://webhook.site/a7215847-0c86-4153-ba9b-167505235d78",
-                        failureUrl: "https://webhook.site/a7215847-0c86-4153-ba9b-167505235d78"
-                    }
-                }).then(data => {
-                    if(data && data.auth_url) {
-                        window.location = data.auth_url;
-                    } else {
-                        throw 'Malformed response body: ' + data;
-                    }
-                }).catch(e => {
-                    console.error(e);
-                    toggleRequest();
-                }); // TODO: Error Handling;
                 break;
         }
 	}
@@ -281,6 +295,12 @@
                 "Content-Type": "application/json; charset=utf-8",
             },
             body: JSON.stringify(data),
+        }).then(response => response.json());
+    }
+
+    function getRequest(url) {
+        return fetch(url, {
+            method: "GET"
         }).then(response => response.json());
     }
 
@@ -347,6 +367,25 @@
         WinPrint.focus();
         WinPrint.print();
         WinPrint.close();
+    }
+
+    function almostUniqueId(length = 9) {
+	    let d = new Date();
+        return ("" + d.getUTCFullYear()).slice(-2) + ("0"+(d.getUTCMonth()+1)).slice(-2) + ("0" + d.getUTCDate()).slice(-2)
+            + Math.random().toString(36).substr(2, length).toUpperCase();
+    }
+
+    function findGetParameter(parameterName) {
+        var result = null,
+            tmp = [];
+        location.search
+            .substr(1)
+            .split("&")
+            .forEach(function (item) {
+                tmp = item.split("=");
+                if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
+            });
+        return result;
     }
 </script>
 {{ end }}

@@ -10,7 +10,7 @@
     
 * **Wie erhalte ich eine Spendenbescheinigung?**
 
-    TODO
+    Nach der Spende wirst du auf eine Seite weitergeleitet, auf der Du einen Zuwendungsnachweis herunterladen kannst, sofern Deine Spende kleiner als 200 € war. Für größere Spenden müsst Du uns aktuell eine E-Mail an [spenden@datenanfragen.de](mailto:spenden@datenanfragen.de) schreiben, in der Du die Spenden ID referenzierst und uns Deine Adresse mitteilst, damit wir Dir eine Bescheinigung ausstellen können.
  
 * **Wer hat außer mir gespendet?**
 
@@ -32,5 +32,5 @@
 
 * **Wie kann ich per SEPA-Lastschrift spenden?**
 
-    <!-- TODO: Investigate Checkoutportal -->
+    <!-- TODO: Activate at mollie -->
     Regelmäßige Spenden per Lastschrift sind zur Zeit nur für unsere Mitglieder möglich. Du kannst gerne ein [Fördermitglied werden](/mitglied-werden) und uns dann ein Lastschriftmandat erteilen. Einzelspenden per Lastschrift unterstützen wir zur Zeit leider nicht.

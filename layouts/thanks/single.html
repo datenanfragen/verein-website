@@ -1,0 +1,39 @@
+{{ define "main" }}
+<main class="narrow-page">
+
+    {{ .Content }}
+
+    <a id="request-donation-verification-button" class="button button-primary icon icon-email" href="mailto:spenden@datenanfragen.de">{{ T "request-donation-verification" }}</a>
+    <a class="button button-secondary icon icon-download" href="https://dacdn.de/vereinfachter-verwendungsnachweis.pdf">{{ T "download-simplified-donation-verification" }}</a>
+
+</main>
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+    window.onload = function () {
+        let donation_reference = findGetParameter('donation_reference');
+        if(!!donation_reference) {
+            let request_button = document.getElementById('request-donation-verification-button');
+            request_button.setAttribute('href', encodeURI('mailto:spenden@datenanfragen.de?' +
+                'Subject=Antrag Zuwendungsnachweis (Spende #' + donation_reference + ')' +
+                '&Body=Guten Tag,\n\n Ich möchte einen Zuwendungsnachweis für meine Spende #' + donation_reference + ' beantragen. \n' +
+                'Bitte senden Sie ihn mir an meine Adresse: \n\n\n Mit freundlichen Grüßen\n'
+            ));
+        }
+    };
+
+    function findGetParameter(parameterName) {
+        var result = null,
+            tmp = [];
+        location.search
+            .substr(1)
+            .split("&")
+            .forEach(function (item) {
+                tmp = item.split("=");
+                if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
+            });
+        return result;
+    }
+</script>
+{{ end }}
