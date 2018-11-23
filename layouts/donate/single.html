@@ -263,6 +263,31 @@
                     toggleRequest();
                 }); // TODO: Error Handling
                 break;
+            case 'cryptocurrency':
+                toggleRequest();
+                postRequest(SERVERLESS_DONATIONS_API, {
+                    payment_provider: "coingate",
+                    data: {
+                        "price_amount": Number(amount).toFixed(2),
+                        "price_currency": "EUR",
+                        "receive_currency": "EUR",
+                        "title": "Spende für Datenanfragen.de e. V.",
+                        "success_url": "http://localhost:1313/danke/?donation_reference=" + donation_reference, // TODO: dynamic {{ "thanks" | absURL }}
+                        "cancel_url": "http://localhost:1313/donate",
+                        "order_id":  donation_reference
+                    }
+                })
+                    .then(data => {
+                        if(data && data.auth_url) {
+                            window.location = data.auth_url;
+                        } else {
+                            throw {message: 'Malformed response body.', data: data};
+                        }
+                    }).catch(e => {
+                    console.error(e);
+                    toggleRequest();
+                }); // TODO: Error Handling
+                break;
         }
 	}
 
