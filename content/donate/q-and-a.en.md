@@ -8,9 +8,9 @@
 
     We use your donation to pay our running expenses and to start new projects to advance data security in Europe according to [our constitution](/constitution). You can read about exactly where your money ended up going im our [yearly report](/transparency). We are not allowed to earn any profit, so you can be sure that you donations ends up going to a good cause.
     
-* **How do I get a verification for my donation?**
+* **How do I get a receipt for my donation?**
 
-    If you require a verification from us in order to prove to your tax authority that you donated to a charitable organization we can provide you with one. After your donation you will be redirected to a page, where you can download a (German) verification for your donation if you only donated a small amount below 200 €. For bigger donation you will have to send us an email at [spenden@datenanfragen.de](mailto:spenden@datenanfragen.de), and tell us your donation ID and address, so that we can create an extended verification for you. **Please note that we are only accredited as a charitable organization by the German tax authorities.** Please check your local tax code to see how and if you can deduct your donation to us in your tax returns.
+    If you require a receipt from us in order to prove to your tax authority that you donated to a charitable organization we can provide you with one. After your donation you will be redirected to a page, where you can download a (German) receipt for your donation if you only donated a small amount below 200 €. For a larger donation you will have to send us an email at [vorstand@datenanfragen.de](mailto:vorstand@datenanfragen.de), and tell us your donation ID and address, so that we can create an extended receipt for you. **Please note that we are only accredited as a charitable organization by the German tax authorities.** Please check your local tax code to see how and if you can deduct your donation to us in your tax returns.
  
 * **Who has donated besides me?**
 
@@ -18,7 +18,7 @@
 
 * **What happens to the data that I provide for the donation?**
 
-    Depending on your payment method you will need to provided different kinds of data. We spent a lot of time trying to minimize the data that you need to enter, though. If you need a legally valid verification for your donation we will need to get your address and keep it according to the lawful retention limit, too. The exact data we get from you or our payment providers is listed in our [privacy policy](https://datenanfragen.de/privacy).
+    Depending on your payment method you will need to provide different kinds of data. We spent a lot of time trying to minimize the data that you need to enter, though. If you need a legally valid receipt for your donation we will need to get your address and keep it according to the lawful retention limit, too. The exact data we get from you or our payment providers is listed in our [privacy policy](https://datenanfragen.de/privacy).
 
 * **How can I donate anonymously?**
 

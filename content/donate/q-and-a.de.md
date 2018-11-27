@@ -10,7 +10,7 @@
     
 * **Wie erhalte ich eine Spendenbescheinigung?**
 
-    Nach der Spende wirst du auf eine Seite weitergeleitet, auf der Du einen vereinfachten Zuwendungsnachweis herunterladen kannst, sofern Deine Spende kleiner als 200 € war. Für größere Spenden musst Du uns aktuell eine E-Mail an [spenden@datenanfragen.de](mailto:spenden@datenanfragen.de) schreiben, in der Du die Spenden ID referenzierst und uns Deine Adresse mitteilst, damit wir Dir eine Bescheinigung ausstellen können.
+    Nach der Spende wirst du auf eine Seite weitergeleitet, auf der Du einen vereinfachten Zuwendungsnachweis herunterladen kannst, sofern Deine Spende kleiner als 200 € war. Für größere Spenden musst Du uns aktuell eine E-Mail an [vorstand@datenanfragen.de](mailto:vorstand@datenanfragen.de) schreiben, in der Du die Spenden-ID referenzierst und uns Deine Adresse mitteilst, damit wir Dir eine Bescheinigung ausstellen können.
  
 * **Wer hat außer mir gespendet?**
 

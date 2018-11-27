@@ -15,10 +15,10 @@
         let donation_reference = findGetParameter('donation_reference');
         if(!!donation_reference) {
             let request_button = document.getElementById('request-donation-verification-button');
-            request_button.setAttribute('href', encodeURI('mailto:spenden@datenanfragen.de?' +
+            request_button.setAttribute('href', encodeURI('mailto:vorstand@datenanfragen.de?' +
                 'Subject=Antrag Zuwendungsnachweis (Spende #' + donation_reference + ')' +
                 '&Body=Guten Tag,\n\n Ich möchte einen Zuwendungsnachweis für meine Spende #' + donation_reference + ' beantragen. \n' +
-                'Bitte senden Sie ihn mir an meine Adresse: \n\n\n Mit freundlichen Grüßen\n'
+                'Bitte sende ihn mir an meine Adresse: \n\n\n Mit freundlichen Grüßen\n'
             ));
         }
     };
