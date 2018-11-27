@@ -7,6 +7,35 @@ other = "img/logo-datenanfragen-ev.svg"
 [header-name]
 other = "Datenanfragen.de e. V."
 
+# Home
+
+[home-card-trust-heading]
+other = "Why trust us?"
+
+[home-card-trust-content]
+other = "Why should you trust us with your sensitive data? What happens when I create requests? Here are some answers to that."
+
+[home-card-trust-button]
+other = "Read more about trust"
+
+[home-card-donate-heading]
+other = "Donate"
+
+[home-card-donate-content]
+other = "We want to keep our project free and open to everyone. If you want to help us do that and launch new projects, consider donating to us. We will be very grateful for every donation."
+
+[home-card-donate-button]
+other = "I want to donate!"
+
+[home-card-join-heading]
+other = "Become a member"
+
+[home-card-join-content]
+other = "Our project is meant for participation. Whether you want to contribute and help with the development or you just want to be closer to the action, we will be happy to welcome you with us."
+
+[home-card-join-button]
+other = "I want to join!"
+
 # Donations
 
 [donation-form-back]
@@ -42,6 +71,9 @@ other = 'You will be billed <span id="donation-form-info-amount-value"></span>&n
 [donation-form-next-step]
 other = 'To the next step'
 
+[donation-form-thanks]
+other = 'Donation verification'
+
 [donation-form-print]
 other = 'Print transfer information'
 
@@ -70,6 +102,11 @@ other = "Request donation verification"
 
 [download-simplified-donation-verification]
 other = "Download simplified donation verification"
+
+# Press
+
+[press-no-releases]
+other = "At this time there are no published press releases in English."
 
 # Footer
 

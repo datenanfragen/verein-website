@@ -60,8 +60,10 @@
                 <div class="clearfix"></div>
             </div>
 
-            <button id="donation-form-back-button" class="button-primary">{{ T "donation-form-back" }}</button>
-            <button id="donation-form-print-button" class="button-secondary" onclick="printElementById('bank-transfer-info')">{{ T "donation-form-print" }}</button>
+            <button id="donation-form-back-button" class="button-primary icon-arrow-left"><span class="sr-only">{{ T "donation-form-back" }}</span></button>
+            <button id="donation-form-print-button" class="button-secondary icon icon-print" onclick="printElementById('bank-transfer-info')">{{ T "donation-form-print" }}</button>
+            <a id="donation-form-thanks-button" class="button button-primary" style="float: right;" href="{{ ref . "thanks" }}">{{ T "donation-form-thanks" }}</a>
+            <div class="clearfix"></div>
         </div>
     </div>
 
@@ -184,9 +186,11 @@
                 let bank_transfer_info = document.getElementById('bank-transfer-info');
                 let reference_field = document.getElementById('bank-transfer-donation-reference');
                 let amount_field = document.getElementById('bank-transfer-donation-amount');
+                let donation_link = document.getElementById('donation-form-thanks-button');
 
                 reference_field.innerText = 'Spende #' + donation_reference;
                 amount_field.innerText = Number(amount).toLocaleString("{{ .Lang }}", {minimumFractionDigits: 2}) + ' €';
+                donation_link.setAttribute("href", "{{ ref . "thanks" }}?donation_reference=" + donation_reference);
 
                 document.forms['donation-form'].classList.add('hidden');
 			    bank_transfer_info.classList.remove('hidden');
@@ -205,7 +209,7 @@
                 }
 
                 if(window.bezahlcode) {
-                    window.bezahlcode.makeCode(bezahlCode(amount_input.value, donation_reference));
+                    window.bezahlcode.makeCode(bezahlCode(amount, donation_reference));
                 } else {
                     window.bezahlcode = new QRCode(document.getElementById('bank-transfer-bezahlcode-qrcode'), {
                         text: bezahlCode(amount, donation_reference),

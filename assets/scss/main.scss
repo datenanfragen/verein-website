@@ -37,3 +37,74 @@
     margin-left: 100px;
     margin-top: 30px;
 }
+
+// -- Home --
+
+#home-hero-bg {
+    min-height: 20vh;
+    height: 580px;
+    background-color: $bg-accent-color;
+}
+
+#home-top-row {
+    height: 420px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+
+    .col33 {
+        padding-top: 50px;
+        height: 100%;
+        box-sizing: border-box;
+    }
+}
+
+.home-card {
+    position: relative;
+    border: 2px solid $primary-color;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 15px;
+    padding-top: 35px;
+    margin: 10px;
+    height: 100%;
+
+    .top-icon {
+        position: absolute;
+        text-align: center;
+        background: #f0f7ff;
+        top: -1.5em;
+        font-size: 25px;
+        margin-right: -1.5em;
+        padding: 0.5em;
+        width: 2em;
+        height: 30px;
+        right: 50%;
+        color: $primary-color;
+    }
+
+    h2 {
+        text-align: center;
+        color: $primary-color;
+    }
+
+    p {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    button, .button {
+        position: absolute;
+        text-align: center;
+        width: 90%;
+        bottom: 15px;
+    }
+}
+
+.home-wide-image {
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    background-position: center center;
+    background-size: 100% auto;
+    margin: 10px;
+}

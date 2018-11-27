@@ -10,7 +10,7 @@
     
 * **Wie erhalte ich eine Spendenbescheinigung?**
 
-    Nach der Spende wirst du auf eine Seite weitergeleitet, auf der Du einen Zuwendungsnachweis herunterladen kannst, sofern Deine Spende kleiner als 200 € war. Für größere Spenden müsst Du uns aktuell eine E-Mail an [spenden@datenanfragen.de](mailto:spenden@datenanfragen.de) schreiben, in der Du die Spenden ID referenzierst und uns Deine Adresse mitteilst, damit wir Dir eine Bescheinigung ausstellen können.
+    Nach der Spende wirst du auf eine Seite weitergeleitet, auf der Du einen vereinfachten Zuwendungsnachweis herunterladen kannst, sofern Deine Spende kleiner als 200 € war. Für größere Spenden musst Du uns aktuell eine E-Mail an [spenden@datenanfragen.de](mailto:spenden@datenanfragen.de) schreiben, in der Du die Spenden ID referenzierst und uns Deine Adresse mitteilst, damit wir Dir eine Bescheinigung ausstellen können.
  
 * **Wer hat außer mir gespendet?**
 
@@ -18,7 +18,7 @@
 
 * **Was passiert mit den Daten, die ich beim Spenden angebe?**
 
-    Je nachdem, wie Du uns die Spende zukommen lässt müssen wir einige Daten von Dir erfassen. Falls Du eine Spendenbescheinigung möchtest, müssen wir sogar Deine Adresse erfassen und gemäß der gesetzlichen Fristen aufbewahren. Eine genaue Aufzählung, welche Daten wir von Dir verarbeiten und welche Daten wir von den Zahlungsdienstleiern erhalten findest Du in der [Datenschutzerklärung](https://datenanfragen.de/privacy).
+    Je nachdem, wie Du uns die Spende zukommen lässt müssen wir einige Daten von Dir erfassen. Falls Du eine Spendenbescheinigung möchtest, müssen wir sogar Deine Adresse erfassen und gemäß der gesetzlichen Fristen aufbewahren. Eine genaue Aufzählung, welche Daten wir von Dir verarbeiten und welche Daten wir von den Zahlungsdienstleistern erhalten findest Du in der [Datenschutzerklärung](https://datenanfragen.de/privacy).
 
 * **Wie kann ich anonym spenden?**
 
@@ -33,4 +33,4 @@
 * **Wie kann ich per SEPA-Lastschrift spenden?**
 
     <!-- TODO: Activate at mollie -->
-    Regelmäßige Spenden per Lastschrift sind zur Zeit nur für unsere Mitglieder möglich. Du kannst gerne ein [Fördermitglied werden](/mitglied-werden) und uns dann ein Lastschriftmandat erteilen. Einzelspenden per Lastschrift unterstützen wir zur Zeit leider nicht.
+    Regelmäßige Spenden per Lastschrift sind nur für unsere Mitglieder möglich. Du kannst gerne ein [Fördermitglied werden](/mitglied-werden) und uns dann ein Lastschriftmandat erteilen. Einzelspenden per Lastschrift unterstützen wir zur Zeit leider nicht.

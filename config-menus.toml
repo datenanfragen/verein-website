@@ -8,6 +8,16 @@
     url = "/spenden"
     weight = 10
 
+[[languages.de.menu.topbar]]
+    name = "Beitreten"
+    url = "/mitglied-werden"
+    weight = 20
+
+[[languages.de.menu.topbar]]
+    name = "Presse"
+    url = "/press"
+    weight = 30
+
 
 [[languages.de.menu.footerleft]]
     name = "Artikel"
@@ -54,6 +64,16 @@
     name = "Donate"
     url = "/donate"
     weight = 10
+
+[[languages.en.menu.topbar]]
+    name = "Become a member"
+    url = "/become-a-member"
+    weight = 20
+
+[[languages.en.menu.topbar]]
+    name = "Press"
+    url = "/press"
+    weight = 30
 
 
 [[languages.en.menu.footerleft]]

@@ -1,5 +1,37 @@
+{{ define "home-hero" }}
+<div class="container" id="home-top-row">
+    <div class="col33">
+        <div class="home-card">
+            <div class="top-icon icon-lock"></div>
+            <h2>{{ T "home-card-trust-heading" }}</h2>
+            <p>{{ T "home-card-trust-content" }}</p>
+            <a href="{{ ref . "why-trust-us" }}" class="button button-secondary">{{ T "home-card-trust-button" }}</span></a>
+        </div>
+    </div>
+    <div class="col33" style="padding-top: 0;">
+        <div class="home-card">
+            <div class="top-icon icon-credit-card"></div>
+            <h2>{{ T "home-card-donate-heading" }}</h2>
+            <p>{{ T "home-card-donate-content" }}</p>
+            <a href="{{ ref . "donate" }}" class="button button-primary">{{ T "home-card-donate-button" }}</a>
+        </div>
+    </div>
+    <div class="col33 ">
+        <div class="home-card">
+            <div class="top-icon icon-group"></div>
+            <h2>{{ T "home-card-join-heading" }}</h2>
+            <p>{{ T "home-card-join-content" }}</p>
+            <a href="{{ ref . "become-a-member" }}" class="button button-secondary">{{ T "home-card-join-button" }}</a>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+{{ end }}
+
 {{ define "main" }}
 <main>
-Hallo!
+    <div class="narrow-page">
+        {{ .Content }}
+    </div>
 </main>
 {{ end }}

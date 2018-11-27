@@ -18,7 +18,7 @@ Gründungsmitglieder haben die Wahl, keinen Beitrag zu zahlen. Sie werden expliz
 
 <div style="float: right;">
 	<!-- TODO: Maybe a button with an icon here? -->
-	<a href="https://static.dacdn.de/docs/gebuehrenordnung.pdf" class="button button-secondary">Als PDF herunterladen</a>
+	<a href="https://static.dacdn.de/docs/gebuehrenordnung.pdf" class="button button-secondary icon icon-download">Als PDF herunterladen</a>
 	<a href="/mitglied-werden" class="button button-primary">Jetzt Mitglied werden</a>
 </div>
 <div class="clearfix"></div>
