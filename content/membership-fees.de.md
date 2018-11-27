@@ -5,6 +5,14 @@
     "type": "page"
 }
 
+Diese Tabelle ist eine kurze Übersicht über die Mitgliedsbeiträge:
+
+Mitgliedschaft     | Mindestbeitrag
+--------|------
+aktiv     | 16,00 €/a
+fördernd   | 32,00 €/a
+Minderjährige (beide) | 0,00 €/a
+
 Die folgende Gebührenordnung wurde von der Gründungsversammlung am 14. Juni 2018 beschlossen:
 
 Der Mitgliedsbeitrag ist jährlich zu entrichten.  
@@ -17,7 +25,6 @@ Die Einstufung als Minderjährige_r und sonstige Ermäßigungen/Befreiungen basi
 Gründungsmitglieder haben die Wahl, keinen Beitrag zu zahlen. Sie werden explizit von der Gründungsversammlung von der Beitragspflicht befreit.
 
 <div style="float: right;">
-	<!-- TODO: Maybe a button with an icon here? -->
 	<a href="https://static.dacdn.de/docs/gebuehrenordnung.pdf" class="button button-secondary icon icon-download">Als PDF herunterladen</a>
 	<a href="/mitglied-werden" class="button button-primary">Jetzt Mitglied werden</a>
 </div>

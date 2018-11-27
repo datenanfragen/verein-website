@@ -40,7 +40,7 @@ Wir werden uns anschließend bei Dir melden, um Dir mitzuteilen, ob Dein Antrag 
 	Wir sind dabei, auch weitere Bezahlmethoden zur Verfügung zu stellen und versuchen gerne, Dir entgegen zu kommen, wenn Du auf einem anderen Wege bezahlen möchtest. Melde Dich einfach vorher kurz bei uns.
 
 * **Wie kündige ich meine Mitgliedschaft wieder?**  
-	So sehr wir uns auch freuen, Dich als Mitglied in unserem Verein zu haben, wollen wir es Dir aber selbstverständig trotzdem leicht machen, wieder auszutreten, solltest Du es Dir einmal anders überlegen. Den Austritt regelt Abschnitt 4.2 unserer [Satzung]({{< ref "constitution" >}}): Du kannst diesen jederzeit schriflich dem Vorstand gegenüber formlos anzeigen. Sobald wir den Austritt bestätigt haben, tritt dieser sofort in Kraft. Es gibt keine künstlichen Kündigungsfristen oder dergleichen bei uns.  
+	So sehr wir uns auch freuen, Dich als Mitglied in unserem Verein zu haben, wollen wir es Dir aber selbstverständlich trotzdem leicht machen, wieder auszutreten, solltest Du es Dir einmal anders überlegen. Den Austritt regelt Abschnitt 4.2 unserer [Satzung]({{< ref "constitution" >}}): Du kannst diesen jederzeit schriflich dem Vorstand gegenüber formlos anzeigen. Sobald wir den Austritt bestätigt haben, tritt dieser sofort in Kraft. Es gibt keine künstlichen Kündigungsfristen oder dergleichen bei uns.  
 	Beachte aber bitte, dass wir Dir bereits gezahlte Beiträge nicht rückerstatten können.
 
 * **Ich möchte meinen Mitgliedsbeitrag ändern. Wie geht das?**  

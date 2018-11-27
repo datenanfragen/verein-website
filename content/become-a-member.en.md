@@ -7,47 +7,47 @@
 
 <!-- TODO: It would (obviously) be great if this wasn't just a big wall of text. I am *very* open to suggestions. -->
 
-Vielen Dank, dass Du Dich für eine Fördermitgliedschaft im Datenanfragen.de e.&nbsp;V. interessierst! Als Fördermitglied unterstützt Du unseren Verein nachhaltig und regelmäßig und setzt so ein Zeichen für den Datenschutz.
+Thank you for considering a supporting membership in the Datenanfragen.de e.&nbsp;V.! As a supporting member you support the association sustainably and regularly to set a sign for data protection.
 
-Da wir als [gemeinnützig anerkannt sind]({{< ref "transparency" >}}#3-angaben-zur-steuerbegünstigung), stellen wir Dir für Deinen Mitgliedsbeitrag gerne eine Spendenbescheinigung aus, sodass Du diesen von der Steuer absetzen kannst.
+Because we are [recognized as a charitable organisation]({{< ref "transparency" >}}#3-information-on-tax-privileges) by the German tax authorities, we are able to give you a donation verification for your membership fees, so that you might be able to deduct it from your tax returns (please check with your local tax code).
 
-Um Fördermitglied zu werden, musst Du nur den [Mitgliedsantrag](https://static.dacdn.de/docs/mitgliedsantrag.pdf) ausfüllen. Schicke uns das fertige Formular dann bitte per E-Mail (als ausgefülltes PDF oder Scan/Foto) an [vorstand@datenanfragen.de](mailto:vorstand@datenanfragen.de), per Fax an +49&nbsp;531&nbsp;209299&nbsp;36 oder per Post an die folgende Adresse: Datenanfragen.de e.&nbsp;V., c/o Benjamin Altpeter, Schreinerweg 6, 38126 Braunschweig, Deutschland.  
-Wir werden uns anschließend bei Dir melden, um Dir mitzuteilen, ob Dein Antrag angenommen wurde und die Bezahlung mit Dir zu klären.
+To become a supporting member, you'll only have to fill out the [membership application](https://static.dacdn.de/docs/mitgliedsantrag.pdf) (German only). Please then send the finished form via email (as filled out PDF or scan/image) to [vorstand@datenanfragen.de](mailto:vorstand@datenanfragen.de), via fax to +49&nbsp;531&nbsp;209299&nbsp;36 or via mail to the following address: Datenanfragen.de e.&nbsp;V., c/o Benjamin Altpeter, Schreinerweg 6, 38126 Braunschweig, Germany.  
+We will contact you subsequently to tell you whether your application had been accepted and to agree on a payment method.
 
-<a href="https://static.dacdn.de/docs/mitgliedsantrag.pdf" class="button button-primary icon icon-download" style="float: right;">Mitgliedsantrag herunterladen</a>
+<a href="https://static.dacdn.de/docs/mitgliedsantrag.pdf" class="button button-primary icon icon-download" style="float: right;">Download membership application</a>
 <div class="clearfix"></div>
 
-## Fragen und Antworten
+## Questions and Answers
 
-* **Was kostet eine Mitgliedschaft?**  
-	Der Mindestbeitrag für eine fördernde Mitgliedschaft wird von der Mitgliederversammlung gesetzt und beträgt 32,00&nbsp;€ pro Jahr. Du darfst Dich aber auch gerne für einen beliebig höheren Beitrag entscheiden.
+* **How expensive is a membership?**  
+    The minimum membership fee for the supporting membership is set by the assembly and is currently 32,00 € per year. You can also decide to pay a arbitrarily higher fee.
 
-	Nähere Informationen dazu findest Du auch in unserer [Gebührenordnung]({{< ref "membership-fees"  >}}).
+	More information can be found in our [fee regulation]({{< ref "membership-fees"  >}}).
 
-* **Gibt es einen ermäßigten Mitgliedsbeitrag?**  
-	Nach unserer [Gebührenordnung]({{< ref "membership-fees"  >}}) gibt es zwei Fälle, in denen der Mitgliedsbeitrag ermäßigt werden oder sogar ganz wegfallen kann:
+* **Is there a reduced membership fee?**  
+	According to our [fee regulation]({{< ref "membership-fees"  >}}) membership fees can be reduced or even completely removed in two cases:
 
-	Falls Du noch minderjährig bist, bist Du vollkommen von der Beitragspflicht befreit. Wenn Du möchtest, darfst Du Dich natürlich trotzdem freiwillig für einen (beliebigen) Mitgliedsbeitrag entscheiden, musst das aber eben nicht.  
-	Für die Mitgliedschaft brauchen wir dann aber die schriftliche Einverständnis Deiner Erziehungsberechtigten.
+    If you are still a minor, you will be completely free of any fee duties. If you want, you can still pay an (arbitrary) membership fee, but you don't need to.
+    For your membership, however, we will then need the written consent of your legal guardians.
 
-	Solltest Du aus sonstigen Gründen den Mindestbeitrag nicht bezahlen können oder wollen, ist das auch kein Problem. Der Vorstand (und auch die Mitgliederversammlung) dürfen Dir den Beitrag ermäßigen. Den Antrag dafür kannst Du einfach formlos direkt zusammen mit dem Mitgliedsantrag stellen.
+    If you are unable (or unwilling) to pay the membership fee for any other reason, you can informally apply not to with out any problem. The board (and also the assembly) are allowed to reduce your membership fee. Just file your application informally together with your membership application.
 
-	**Wichtig:** Bitte schick uns in *keinem* der beiden Fälle einen Nachweis zu! Sämtliche Ermäßigungen und Beifreiungen basieren ausschließlich auf Vertrauensbasis – wir dürfen und wollen hier nichts überprüfen.
+	**Important:** Please do *not* send us proof in any case! All reductions and exemptions are based only on trust – we neither are are allowed to nor want to check anything.
 
-* **Wie kann ich meine Mitgliedschaft bezahlen?**  
-	Aktuell ist die Bezahlung per Überweisung oder SEPA-Lastschrift („Bankeinzug“) möglich. Nachdem Dein Antrag angenommen wurde, melden wir uns bei Dir, um die Bezahlung zu klären.
+* **How can I pay for my membership?**  
+    Currently we offer payment via bank transfer and SEPA direct debit. After we accepted your application, we will contact you to negotiate the payment.
 
-	Wir sind dabei, auch weitere Bezahlmethoden zur Verfügung zu stellen und versuchen gerne, Dir entgegen zu kommen, wenn Du auf einem anderen Wege bezahlen möchtest. Melde Dich einfach vorher kurz bei uns.
+    We are working on adding additional payment methods and we will happily arrange something, if you want to pay in a different way. Just contact us.
 
-* **Wie kündige ich meine Mitgliedschaft wieder?**  
-	So sehr wir uns auch freuen, Dich als Mitglied in unserem Verein zu haben, wollen wir es Dir aber selbstverständig trotzdem leicht machen, wieder auszutreten, solltest Du es Dir einmal anders überlegen. Den Austritt regelt Abschnitt 4.2 unserer [Satzung]({{< ref "constitution" >}}): Du kannst diesen jederzeit schriflich dem Vorstand gegenüber formlos anzeigen. Sobald wir den Austritt bestätigt haben, tritt dieser sofort in Kraft. Es gibt keine künstlichen Kündigungsfristen oder dergleichen bei uns.  
-	Beachte aber bitte, dass wir Dir bereits gezahlte Beiträge nicht rückerstatten können.
+* **How can I terminate my membership?**  
+    Event though we are very happy to have you as a member, we still want to make it easy for you to leave again, if you change your mind. The membership termination is regulated by section 4.2 of our [constitution]({{< ref "constitution" >}}#4-termination-of-membership): You can always indicate the termination in informal writing. As soon as we confirmed your termination, it is active immediately. There are no constructed termination limits or comparable.
+    Please be aware that we are not able to refund already paid membership fees.
 
-* **Ich möchte meinen Mitgliedsbeitrag ändern. Wie geht das?**  
-	Das regelt unsere [Gebührenordnung]({{< ref "membership-fees"  >}}): Eine Änderung Deines persönlichen Mitgliedsbeitrags kannst Du jederzeit einfach dem Vorstand mitteilen (der Mindestbeitrag gilt aber natürlich trotzdem). Die Änderung tritt dann ab dem folgenden Beitragsjahr ein.
+* **I want to change my membership fee. How do I do that?**  
+	This is regulated by our [fee regulation]({{< ref "membership-fees"  >}}): You can indicate a change of your personal membership fee at any time to the board (the minimum fee is of course still active). The change will be active in the following year of your membership.
 
-* **Wie kann ich meinen Mitgliedsbeitrag von der Steuer absetzen?**  
-	Als gemeinnütziger Verein sind wir berechtigt, Dir für Deinen Mitgliedsbeitrag eine Zuwendungsbescheinigung auszustellen, mit der Du diesen dann von der Steuer absetzen kannst. Dafür brauchen wir leider Deine Adresse. Wenn Du diese im Mitgliedsantrag bereits angegeben hast, werden wir Dir die Bescheinigung zusenden, ohne dass Du etwas dafür tun musst. Solltest Du das nicht getan haben, aber dennoch eine Bescheinigung haben wollen, wende Dich bitte an den Vorstand.
+* **How can I deduct the membership fee in my tax returns?**  
+    Being a charitable organisation we are allowed to issue donation verifications for your membership fees which you can then use to deduct it in your tax returns (only in Germany, foreign tax codes might not allow donations to foreign organisation). Unfortunately, we will need you address for that. If you already entered your address in the application, we will send you your verification without your assistance. If you didn't, but you still want a donation verification, please contact the board. 
 
-* **An wen kann ich mich mit sonstigen Fragen wenden?**  
-	Bei allen Fragen rund um die Mitgliedschaft (und auch sonst alles, das den Verein betrifft) steht Dir der [Vorstand]({{< ref "board" >}}) gerne zur Verfügung. Am besten erreichst Du uns einfach per Mail an [vorstand@datenanfragen.de](mailto:vorstand@datenanfragen.de), aber natürlich auch über die anderen Kontaktmöglichkeiten, die auf der [Vorstandsseite]({{< ref "board" >}}) angegeben sind.
+* **Where can I go for other questions?**  
+    For all questions about the membership (and everything else that concerns the association) the [board]({{< ref "board" >}}) is there for you. You can reach us the easiest via email at [vorstand@datenanfragen.de](mailto:vorstand@datenanfragen.de), but of course also via all other contact methods you find on the [board webpage]({{< ref "board" >}}).

@@ -13,7 +13,7 @@ other = "Datenanfragen.de e. V."
 other = "Uns vertrauen?"
 
 [home-card-trust-content]
-other = "Warum sollte ich euch mit meinen sensiblen Daten vertruen? Was passiert, wenn ich Anfragen erstelle? Hier sind ein paar Antworten."
+other = "Warum sollte ich euch mit meinen sensiblen Daten vertrauen? Was passiert, wenn ich Anfragen erstelle? Hier sind ein paar Antworten."
 
 [home-card-trust-button]
 other = "Mehr über Vertrauen"
@@ -111,4 +111,4 @@ other = "Zur Zeit wurden keine Pressemitteilungen auf Deutsch veröffentlicht."
 # Footer
 
 [footer-about-us]
-other = "Wir sind der Datenanfragen.de e.&nbsp;V., ein gemeinnütziger Verein, der es sich zur Aufgabe gemacht hat, Dir bei der Ausübung Deines Rechts auf Datenschutz zu helfen. <a href='https://verein.datenanfragen.de'>Erfahre mehr.</a>"
+other = "Wir sind der Datenanfragen.de e.&nbsp;V., ein gemeinnütziger Verein, der es sich zur Aufgabe gemacht hat, Dir bei der Ausübung Deines Rechts auf Datenschutz zu helfen. <a href='https://www.datenanfragen.de'>Zur Webseite.</a>"

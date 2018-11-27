@@ -26,10 +26,8 @@ Es ist natürlich schön und gut, wenn wir Dir erzählen, wie wenige Daten der G
 
 # Gemeinnützigkeit
 
-Mit der Gemeinnützigkeit kommt das Versprechen, dass die Nutzung von allen Projekten des Vereins für sein Bestehen kostenlos bleiben wird. Wir verfolgen also keine Gewinninteressen, haben einen Grund Deine Daten zu verkaufen oder Geld mit Deinen Rechten zu machen. Dass wir uns auch daran halten, wird nicht nur von der Mitgliederversammlung, sondern auch vom Finanzamt überprüft.
+Mit der Gemeinnützigkeit kommt das Versprechen, dass die Nutzung von allen Projekten des Vereins für sein Bestehen kostenlos bleiben wird. Wir verfolgen also keine Gewinninteressen, haben keinen Grund Deine Daten zu verkaufen oder Geld mit Deinen Rechten zu machen. Dass wir uns auch daran halten, wird nicht nur von der Mitgliederversammlung, sondern auch vom Finanzamt überprüft.
 
 # Transparenz
 
 Den Verein und den Betrieb der Webseite haben wir so eingerichtet, dass es leicht ist, von außen in die Prozesse Einblick zu erhalten. So sind wir Teil der Initiative Transparente Zivilgesellschaft und veröffentlichen in diesem Rahmen regelmäßig Informationen zur aktuellen Geschäftsführung auf unserer [Transparenzseite]({{< ref "transparency" >}}). Und natürlich sind alle wichtigen Dinge auf der Webseite oder GitHub zu finden. Wenn Dir trotzdem Informationen fehlen, oder Du Fragen hast, ist unser Vorstand für Dich da: [vorstand@datenanfragen.de](mailto:vorstand@datenanfragen.de)
-
-

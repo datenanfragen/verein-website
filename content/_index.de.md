@@ -4,7 +4,7 @@
 
 ## Wer wir sind
 
-Wir sind der Datenanfragen.de e.&thinsp;V., ein gemeinnütziger Verein, der die Webseiten [datarequests.org](https://www.datarequests.org) und [datenanfragen.de](https://www.datenanfragen.de) betreibt. Wir sind auf einer [Mission]({{ ref . "mission-statement" }}) Datenschutz und Schutz der Privatsphäre in Europa und darüber hinaus voranzutreiben. Wir wollen Dir helfen, Dein Recht Grundrecht auf informationelle Selbstbestimmung auszuüben und setzen ein Beispiel, wie sich guter Datenschutz umsetzen lässt, ohne nervig zu sein. Weil wir glauben, dass Datenschutz der Standard sein sollte.
+Wir sind der Datenanfragen.de e.&thinsp;V., ein gemeinnütziger Verein, der die Webseiten [datarequests.org](https://www.datarequests.org) und [datenanfragen.de](https://www.datenanfragen.de) betreibt. Wir sind auf einer [Mission]({{< ref "mission-statement" >}}) Datenschutz und Schutz der Privatsphäre in Europa und darüber hinaus voranzutreiben. Wir wollen Dir helfen, Dein Recht Grundrecht auf informationelle Selbstbestimmung auszuüben und setzen ein Beispiel, wie sich guter Datenschutz umsetzen lässt, ohne nervig zu sein. Weil wir glauben, dass Datenschutz der Standard sein sollte.
 
 ## Was wir tun
 
