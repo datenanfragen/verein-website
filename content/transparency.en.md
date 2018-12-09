@@ -3,9 +3,11 @@
     "type": "page"
 }
 
-In order for you to be able to trust us, we pledged to be as transparent as possible about our procedures, finances and decisions. Because of that, we are part of the [Initiative for a Transparent Civil Society](https://www.transparency.de/mitmachen/initiative-transparente-zivilgesellschaft/), an initiative by the German branch of Transparency International, which is allowed to audit us on a sample basis. They ensure that we will keep our promise of transparent management. On this page we summarized all the important information that we publish as part of that. This information has been last updated on November 6, 2018.
+In order for you to be able to trust us, we pledged to be as transparent as possible about our procedures, finances and decisions. Because of that, we are part of the [Initiative for a Transparent Civil Society](https://www.transparency.de/mitmachen/initiative-transparente-zivilgesellschaft/), an initiative by the German branch of Transparency International, which is allowed to audit us on a sample basis. They ensure that we will keep our promise of transparent management. On this page we summarized all the important information that we publish as part of that.
 
-## 1. Name, registered seat, address and year of foundation
+This information has been last updated on December 10, 2018.
+
+## 1. Name, registered seat, address and date of foundation
 This information is also avilable in our [imprint]({{< ref "contact" >}}).
 
  - Name: Datenanfragen.de e.&thinsp;V.
@@ -18,7 +20,7 @@ This information is also avilable in our [imprint]({{< ref "contact" >}}).
    Schreinerweg 6  
    38126 Braunschweig  
    Germany  
- - Year of foundation: June 14, 2018
+ - Date of foundation: June 14, 2018
 
 ## 2. Constitution and purpose
 
@@ -32,14 +34,14 @@ The tax office Braunschweig-Wilhelmstraße approved us as a public benefit organ
 
 ## 4. Name and function of significant decision makers
 
-The association is managed by the board. It is comprised of:
+The association is managed by the [board](/board). It is comprised of:
  
  - Benjamin Altpeter, Chairman
  - Lorenz Sieben, Chairman
  
 ## 5. Report of activities
 
-As of now (November 6, 2018) no reports have been issued to the association members or the tax authorities.
+As of now, no reports have been issued to the association members or the tax authorities.
 
 ## 6. Staff structure
 
@@ -47,11 +49,11 @@ The association has no staff.
 
 ## 7. Funding sources
 
-As of now (November 6, 2018) no yearly reports have been issued to the association members or the tax authorities. All current funds have been acquired as donations. 
+As of now, no yearly reports have been issued to the association members or the tax authorities. All current funds have been acquired as donations. 
 
 ## 8. Use of funds
 
-As of now (November 6, 2018) no yearly reports have been issued to the association members or the tax authorities. All current funds have been used in accordance with the purpose as defined by the constitution. 
+As of now, no yearly reports have been issued to the association members or the tax authorities. All current funds have been used in accordance with the purpose as defined by the constitution. 
 
 ## 9. Corporate relationships with third parties 
 
@@ -59,4 +61,4 @@ The association is in no corporate relationships with any third parties.
 
 ## 10. Names of entities whose donations make up more than 10% of the yearly budget
 
-As of now (November 6, 2018) no yearly reports on the received donations have been issued to the association members or the tax authorities. The next report is expected for mid 2019.
+As of now, no yearly reports on the received donations have been issued to the association members or the tax authorities. The next report is expected for mid 2019.

@@ -21,10 +21,10 @@
     url = "/mission-statement"
     weight = 10
     post = "<br>"
-[[languages.de.menu.footerleft]]
-    name = "Artikel"
-    url = "/blog"
-    weight = 20
+# [[languages.de.menu.footerleft]]
+#     name = "Artikel"
+#     url = "/blog"
+#     weight = 20
 [[languages.de.menu.footerleft]]
     name = "Presse"
     url = "/press"
@@ -43,11 +43,14 @@
     name = "Gebührenordnung"
     url = "/gebuehrenordnung"
     weight = 30
-    post = "<br>"
+[[languages.de.menu.footercenter]]
+    name = "Vorstand"
+    url = "/vorstand"
+    weight = 40
 [[languages.de.menu.footercenter]]
     name = "Transparenz"
     url = "/transparency"
-    weight = 40
+    weight = 50
 
 
 [[languages.de.menu.footerright]]
@@ -88,10 +91,10 @@
     url = "/mission-statement"
     weight = 10
     post = "<br>"
-[[languages.en.menu.footerleft]]
-    name = "Posts"
-    url = "/blog"
-    weight = 20
+# [[languages.en.menu.footerleft]]
+#     name = "Posts"
+#     url = "/blog"
+#     weight = 20
 [[languages.en.menu.foterleft]]
     name = "Press"
     url = "/press"
@@ -109,11 +112,14 @@
     name = "Membership fees"
     url = "/membership-fees"
     weight = 30
-    post = "<br>"
+[[languages.en.menu.footercenter]]
+    name = "Board"
+    url = "/board"
+    weight = 40
 [[languages.en.menu.footercenter]]
     name = "Transparency"
     url = "/transparency"
-    weight = 40
+    weight = 50
 
 
 [[languages.en.menu.footerright]]

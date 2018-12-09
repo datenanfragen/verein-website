@@ -13,7 +13,7 @@ other = "Datenanfragen.de e. V."
 other = "Why trust us?"
 
 [home-card-trust-content]
-other = "Why should you trust us with your sensitive data? What happens when I create requests? Here are some answers to that."
+other = "Why should I trust you with my sensitive data? What happens when I create requests? Here are some answers to that."
 
 [home-card-trust-button]
 other = "Read more about trust"
@@ -22,7 +22,7 @@ other = "Read more about trust"
 other = "Donate"
 
 [home-card-donate-content]
-other = "We want to keep our project free and open to everyone. If you want to help us do that and launch new projects, consider donating to us. We will be very grateful for every donation."
+other = "We want to keep our project free and open to everyone. If you want to help us do that and launch new projects, consider donating to us. We are very grateful for every donation."
 
 [home-card-donate-button]
 other = "I want to donate!"
@@ -63,7 +63,7 @@ other = "Reference"
 other = "Amount"
 
 [donation-bank-transfer-qrcodes]
-other = "QR-codes for the transfer"
+other = "QR codes for the transfer"
 
 [donation-form-amount]
 other = 'You will be billed <span id="donation-form-info-amount-value"></span>&nbsp;€ <em>once</em>.'
@@ -80,35 +80,35 @@ other = 'Print transfer information'
 [donation-form-translations]
 other = '''{
     "bank-transfer": "Bank transfer",
-    "bank-transfer-info": "In the next step we are going to show you our bank details so that you can transfer your donation.",
+    "bank-transfer-info": "In the next step, we are going to show you our bank details so that you can transfer your donation.",
     "paysafecard": "paysafecard",
-    "paysafecard-info": "In the next step we will redirect you to our partner Mollie.",
+    "paysafecard-info": "In the next step, we will redirect you to our partner Mollie.",
     "creditcard": "Credit card",
-    "creditcard-info": "In the next step we redirect you to our partner Mollie.",
+    "creditcard-info": "In the next step, we will redirect you to our partner Mollie.",
     "paypal": "PayPal",
-    "paypal-info": "In the next step we will redirect you to PayPal.",
+    "paypal-info": "In the next step. we will redirect you to PayPal.",
     "cryptocurrency": "Crypto currency",
-    "cryptocurrency-info": "In the next step we will redirect you to our partner CoinGate.",
+    "cryptocurrency-info": "In the next step, we will redirect you to our partner CoinGate.",
     "directdebit": "SEPA direct debit",
-    "directdebit-info": "In the next step we will redirect you to our partner Mollie. If you want to pay recurringly, consider becoming a member.",
+    "directdebit-info": "In the next step, we will redirect you to our partner Mollie. If you want to pay recurringly, you can also consider becoming a member.",
     "mollie": "Other payments",
-    "mollie-info": "Our partner Mollie offers several other payment methods, including Sofortüberweisung, giropay, iDEAL, EPS, CDC and Bancontact."
+    "mollie-info": "Our partner Mollie also offers several other payment methods, including Sofortüberweisung, giropay, iDEAL, EPS, CDC and Bancontact."
 }'''
 
 # Thanks
 
 [request-donation-verification]
-other = "Request donation verification"
+other = "Request donation receipt"
 
 [download-simplified-donation-verification]
-other = "Download simplified donation verification"
+other = "Download simplified donation receipt"
 
 # Press
 
 [press-no-releases]
-other = "At this time there are no published press releases in English."
+other = "At this time there are no press releases in English."
 
 # Footer
 
 [footer-about-us]
-other = "We are Datenanfragen.de e.&nbsp;V., a registered non-profit from Germany. We have made it our mission to help you exercise your right to privacy. <a href='https://www.datarequests.org'>To the website.</a>"
+other = "We are Datenanfragen.de e.&nbsp;V., a registered non-profit from Germany. We have made it our mission to help you exercise your right to privacy."

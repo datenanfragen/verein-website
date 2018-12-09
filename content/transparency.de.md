@@ -5,7 +5,9 @@
     "type": "page"
 }
 
-Damit Du uns vertrauen kannst, haben wir uns verpflichtet, unsere Abläufe, Finanzen und Entscheidungen so transparent wie möglich zu machen. Wir sind deshalb Teil der [Initiative Transparente Zivilgesellschaft](https://www.transparency.de/mitmachen/initiative-transparente-zivilgesellschaft/), die uns stichprobenartig kontrollieren kann und dafür sorgt, dass unser Versprechen zur transparenten Geschäftsführung kein leeres bleibt. Auf dieser Seite sind nun alle wichtigen Informationen zusammengefasst, die wir im Rahmen unseres Transparenzberichts veröffentlichen. Die Informationen sind auf dem Stand vom 6. November 2018.
+Damit Du uns vertrauen kannst, haben wir uns verpflichtet, unsere Abläufe, Finanzen und Entscheidungen so transparent wie möglich zu machen. Wir sind deshalb Teil der [Initiative Transparente Zivilgesellschaft](https://www.transparency.de/mitmachen/initiative-transparente-zivilgesellschaft/), die uns stichprobenartig kontrollieren kann und dafür sorgt, dass unser Versprechen zur transparenten Geschäftsführung kein leeres bleibt. Auf dieser Seite sind nun alle wichtigen Informationen zusammengefasst, die wir im Rahmen unseres Transparenzberichts veröffentlichen.
+
+Die Informationen sind auf dem Stand vom 10. Dezember 2018.
 
 ## 1. Name, Sitz, Anschrift und Gründungsjahr
 Diese Informationen sind auch in unserem [Impressum]({{< ref "contact" >}}) zu finden.
@@ -34,14 +36,14 @@ Das Finanzamt Braunschweig-Wilhelmstraße hat uns per [Bescheid vom 21. Juni 201
 
 ## 4. Name und Funktion wesentlicher Entscheidungsträger
 
-Die Geschäftsführung des Vereins hat der Vorstand inne. Dieser besteht aus:
+Die Geschäftsführung des Vereins hat der [Vorstand](/vorstand) inne. Dieser besteht aus:
  
  - Benjamin Altpeter, Vorsitzender
  - Lorenz Sieben, Vorsitzender
  
 ## 5. Tätigkeitsbericht
 
-Zur Zeit (6. November 2018) ist noch kein Tätigkeitsbericht an die Mitglieder oder das Finanzamt ergangen.
+Zur Zeit ist noch kein Tätigkeitsbericht an die Mitglieder oder das Finanzamt ergangen.
 
 ## 6. Personalstruktur
 
@@ -49,11 +51,11 @@ Der Verein beschäftigt kein Personal.
 
 ## 7. Angaben zur Mittelherkunft
 
-Zur Zeit (6. November 2018) ist noch kein Jahresbericht an die Mitglieder oder das Finanzamt ergangen. Alle bisherigen Mittel wurden als Spenden oder Mitgliedsbeiträge eingenommen.
+Zur Zeit ist noch kein Jahresbericht an die Mitglieder oder das Finanzamt ergangen. Alle bisherigen Mittel wurden als Spenden oder Mitgliedsbeiträge eingenommen.
 
 ## 8. Angaben zur Mittelverwendung
 
-Zur Zeit (6. November 2018) ist noch kein Jahresbericht an die Mitglieder oder das Finanzamt ergangen. Alle bisher eingenommen Mittel wurden im Sinne der satzungsgemäßen Zwecke eingesetzt.
+Zur Zeit ist noch kein Jahresbericht an die Mitglieder oder das Finanzamt ergangen. Alle eingenommen Mittel werden im Sinne der satzungsgemäßen Zwecke eingesetzt.
 
 ## 9. Gesellschaftsrechtliche Verbundenheit mit Dritten
 
@@ -61,4 +63,4 @@ Der Verein steht in keinerlei gesellschaftsrechtlicher Verbundenheit mit Dritten
 
 ## 10. Namen von Personen, deren jährliche Zahlungen mehr als 10 % des Gesamtjahresbudgets ausmachen
 
-Zur Zeit (6. November 2018) ist noch kein Bericht über erhaltene Zuwendungen an die Mitglieder oder das Finanzamt ergangen. Ein Bericht ist Mitte 2019 zu erwarten.
+Zur Zeit ist noch kein Bericht über erhaltene Zuwendungen an die Mitglieder oder das Finanzamt ergangen. Ein Bericht ist Mitte 2019 zu erwarten.

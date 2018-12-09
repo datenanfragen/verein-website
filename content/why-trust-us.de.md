@@ -4,15 +4,17 @@
     "aliases": ["why-trust-us"]
 }
 
-Um Deine Anfragen zu erstellen, musst Du viele verschiedene sensible Daten verwenden. Dazu gehört, welche Unternehmen Du anfragst, Deine Identifikationsdaten, Deine Unterschrift und was in Deinen Anfragen am Ende steht. Auf dieser Seite wollen wir Dir erklären, warum Du uns vertrauen kannst, damit Du den Generator sorglos verwenden kannst.
+Um Deine Anfragen zu erstellen, musst Du viele verschiedene sensible Daten angeben. Dazu angehören, die Unternehmen, die Du anfragst, Deine Identifikationsdaten, Deine Unterschrift und was in Deinen Anfragen am Ende steht. Auf dieser Seite wollen wir Dir erklären, warum Du uns vertrauen kannst, damit Du den Generator sorglos verwenden kannst.
 
 # Privacy by default
 
-"Privacy by default" heißt, dass alle Einstellungen, die für Deinen Datenschutz relevant sind, per default so eingestellt sind, dass Du Sie nur umstellen musst, wenn du zusätzliche Features aktivieren möchtest. Du musst Dir also keine Sorge machen, dass wenn Du da erste Mal auf die Seite gehst Deine Daten sofort in Gefahr sind.
+„Privacy by default“ heißt, dass alle Einstellungen, die für Deinen Datenschutz relevant sind, standardmäßig so eingestellt sind, dass Du sie nur umstellen musst, wenn du zusätzliche Features aktivieren möchtest.
 
-# Minimal data
+Du musst Dir also keine Sorge machen, dass wenn Du da erste Mal auf die Seite gehst Deine Daten sofort in Gefahr sind.
 
-Alle unsere Systeme sind so eingestellt, dass sie so wenig wie möglich, am besten gar keine, Daten von Dir erfassen. Oft lässt sich das nicht völlig vermeiden, etwa, wenn Du die Suche des Generators verwendest: Diese findet auf unseren Servern statt, sodass Du den Suchbegriff zuerst an uns schicken musst. In solchen Fällen speichern wir Deine Daten aber auf gar keinen Fall (es sei denn natürlich irgendein Gesetzt zwingt uns dazu).  
+# Datensparsamkeit
+
+Alle unsere Systeme sind so eingestellt, dass sie so wenig wie möglich – am besten gar keine – Daten von Dir erfassen. Oft lässt sich das nicht völlig vermeiden, etwa wenn Du die Suche des Generators verwendest: Diese findet auf unseren Servern statt, sodass Du den Suchbegriff zuerst an uns schicken musst. In solchen Fällen speichern wir Deine Daten aber auf gar keinen Fall (es sei denn natürlich irgendein Gesetz zwingt uns dazu).  
 
 Die meisten Daten, die Du im Generator eingibst werden aber nie überhaupt nur abgesendet. Damit Du uns gar nicht erst vertrauen musst, haben wir ihn so programmiert, dass alle Anfragen auf Deine Computer generiert werden. Das heißt, mehr, als dass Deine IP unseren Generator benutzt können wir nicht sehen.
 

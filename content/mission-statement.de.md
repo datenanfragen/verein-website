@@ -1,9 +1,11 @@
 {
     "title": "Unsere Ziele",
-    "type": "page"
+    "type": "page",
+    "slug": "ziele",
+    "aliases": ["mission-statement", "mission"]
 }
 
-Wir sind ein Verein, der für das Grundrecht auf Datenschutz und Privatsphäre, das Grundrecht auf informationelle Selbstbestimmung eintritt. Wir möchten, dass jede Person selbst entscheiden kann, wer wieviel über sie weiß, und dass Behörden und Unternehmen, die versuchen Dir diese Informationen zu entreißen dafür zur rechenschaft gezogen werden. Wir stehen ein für Transparenz, Offenheit, Kollaboration und Solidarität mit den Betroffenen. Dabei sind wir parteiisch auf der Seite der Verbraucher_innen und Bürger_innen, für deren Rechte wir einstehen.
+Wir sind ein Verein, der für das Grundrecht auf Datenschutz und Privatsphäre, das sogenannte Recht auf informationelle Selbstbestimmung eintritt. Wir möchten, dass jede Person selbst entscheiden kann, wer wieviel über sie weiß, und dass Behörden und Unternehmen, die versuchen Dir diese Informationen zu entreißen dafür zur Rechenschaft gezogen werden. Wir stehen ein für Transparenz, Offenheit, Kollaboration und Solidarität mit den Betroffenen. Dabei sind wir parteiisch auf der Seite der Verbraucher_innen und Bürger_innen, für deren Rechte wir einstehen.
 
 Diese Ziele drücken sich in den Zwecken unserer [Satzung]({{< ref "constitution" >}}) aus. Wir wollen hier nocheinmal genau darlegen, wie genau unsere Ziele aussehen und wie wir sie erreichen wollen.
 
@@ -13,12 +15,12 @@ Unser Ziel ist es, soviele Menschen wie möglich darüber aufzuklären, dass sie
  
 ## Rechte zugänglich machen
 
-Wir möchten, dass viele Menschen nicht nur von ihrem Recht mit ihren Daten selbst umzugehen wissen, sondern auch, dass sie davon Gebrauch machen können, damit sich die Rechte nicht abnutzen. Deshalb gestalten wir unsere Inhalte zugänglich und verständlich und bieten Werkzeuge wie den Generator und die Datenbank an, um es leichter zu machen, das eigene Recht zu erkämpfen.
+Wir möchten, dass so viele Menschen wie möglich nicht nur von ihrem Recht mit ihren Daten selbst umzugehen wissen, sondern auch, dass sie davon Gebrauch machen können, damit sich die Rechte nicht abnutzen. Deshalb gestalten wir unsere Inhalte zugänglich und verständlich und bieten Werkzeuge wie den Generator und die Datenbank an, um es leichter zu machen, das eigene Recht zu erkämpfen.
  
 ## Für neue Rechte streiten
 
-In einer Demokratie ist es immer notwendig, für seinen eigenen Interessen aufzustehen und sie gemeinsam mit anderen zu erstreiten. Deswegen beteiligen wir uns am Diskurs zu neuen Datenschutzgesetzgebungen und machen Vorschläge, wie es in Zukunft besser werden kann. Dass im Internet überall mit den eigenen Daten bezahlt wird und die Staat wie Unternehmen immer mehr über einen wissen ist bedenklich und muss in Zukunft weiter zurückgedrängt werden.
+In einer Demokratie ist es immer notwendig, für seinen eigenen Interessen aufzustehen und sie gemeinsam mit anderen zu erstreiten. Deswegen beteiligen wir uns am Diskurs zu neuen Datenschutzgesetzgebungen und machen Vorschläge, wie es in Zukunft besser werden kann. Dass im Internet überall mit den eigenen Daten bezahlt wird und der Staat wie Unternehmen immer mehr über uns weiß, ist bedenklich und muss in Zukunft weiter zurückgedrängt werden.
  
 ## Vorbild sein
 
-Wir wollen nicht nur bestehende Zustände kritisieren, sondern auch zeigen, dass es anders geht. Deswegen gestalten wir unsere eigenen Programme und Prozesse so, dass die minimal nötige Menge an Daten verwenden, ohne, dass es nervig wird.  Dabei sind wir transparent und offen, um Kontrolle und Vertrauen zu ermöglichen, aber auch, damit andere uns zum Vorbild nehmen und ihre eigenen Prozesse anhand unserer verbessern können.
+Wir wollen nicht nur bestehende Zustände kritisieren, sondern auch zeigen, dass es anders geht. Deswegen gestalten wir unsere eigenen Programme und Prozesse so, dass sie die minimal nötige Menge an Daten verwenden, ohne dass es nervig wird.  Dabei sind wir transparent und offen, um Kontrolle und Vertrauen zu ermöglichen, aber auch, damit andere uns zum Vorbild nehmen und ihre eigenen Prozesse anhand unserer verbessern können.

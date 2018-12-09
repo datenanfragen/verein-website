@@ -13,7 +13,7 @@ other = "Datenanfragen.de e. V."
 other = "Uns vertrauen?"
 
 [home-card-trust-content]
-other = "Warum sollte ich euch mit meinen sensiblen Daten vertrauen? Was passiert, wenn ich Anfragen erstelle? Hier sind ein paar Antworten."
+other = "Warum sollte ich Euch mit meinen sensiblen Daten vertrauen? Was passiert, wenn ich Anfragen erstelle? Hier sind ein paar Antworten."
 
 [home-card-trust-button]
 other = "Mehr über Vertrauen"
@@ -22,7 +22,7 @@ other = "Mehr über Vertrauen"
 other = "Uns spenden!"
 
 [home-card-donate-content]
-other = "Wir wollen unsere Projekte kostenlos, frei und offen für alle halten. Wenn Du uns dabei unterstützen willst und auch dabei, neue Projekte zu starten, spende uns doch. Wir freuen uns über jeden Beitrag."
+other = "Wir wollen unsere Projekte kostenlos, frei und offen für alle halten. Wenn Du uns dabei und beim Starten neuer Projekte unterstützen willst, spende uns doch. Wir freuen uns über jeden Beitrag."
 
 [home-card-donate-button]
 other = "Ich möchte spenden!"
@@ -31,7 +31,7 @@ other = "Ich möchte spenden!"
 other = "Uns beitreten."
 
 [home-card-join-content]
-other = "Unser Projekt lebt von Zusammenarbeit. Wenn Du in der Entwicklung und Verwaltung mitmachen möchtest oder einfach mehr von usn mitbekommen möchtest, heißen wir dich herzlich bei uns willkommen."
+other = "Unser Projekt lebt von Zusammenarbeit. Wenn Du in der Entwicklung und Verwaltung mitmachen möchtest oder einfach mehr von uns mitbekommen möchtest, heißen wir Dich herzlich bei uns willkommen."
 
 [home-card-join-button]
 other = "Ich möchte beitreten."
@@ -84,13 +84,13 @@ other = '''{
     "paysafecard": "paysafecard",
     "paysafecard-info": "Im nächsten Schritt leiten wir Dich an unseren Dienstleister Mollie weiter, wo Du die Nummer einer gültigen paysafecard benötigst.",
     "creditcard": "Kreditkarte",
-    "creditcard-info": "Im nächsten Schritt leiten wir Dich an unseren Dienstleister Mollie weiter.",
+    "creditcard-info": "Im nächsten Schritt leiten wir Dich an unseren Dienstleister Mollie weiter, wo Du Deine Kreditkartendaten eingeben kannst.",
     "paypal": "PayPal",
-    "paypal-info": "Im nächsten Schritt leiten wir Dich an Paypal weiter.",
+    "paypal-info": "Im nächsten Schritt leiten wir Dich an PayPal weiter.",
     "cryptocurrency": "Cryptowährung",
     "cryptocurrency-info": "Im nächsten Schritt leiten wir Dich an unseren Dienstleister CoinGate weiter.",
     "directdebit": "SEPA-Lastschrift",
-    "directdebit-info": "Im nächsten Schritt leiten wir Dich an unseren Dienstleister Mollie weiter. Wenn du regelmäßig spenden möchtest, kannst Du auch Fördermitlgied werden.",
+    "directdebit-info": "Im nächsten Schritt leiten wir Dich an unseren Dienstleister Mollie weiter. Wenn du regelmäßig spenden möchtest, kannst Du auch Fördermitglied werden.",
     "mollie": "Weitere Methoden",
     "mollie-info": "Unser Dienstleister Mollie bietet auch noch weitere Zahlungsmethoden an, insbesondere Sofortüberweisung und giropay."
 }'''
@@ -111,4 +111,4 @@ other = "Zur Zeit wurden keine Pressemitteilungen auf Deutsch veröffentlicht."
 # Footer
 
 [footer-about-us]
-other = "Wir sind der Datenanfragen.de e.&nbsp;V., ein gemeinnütziger Verein, der es sich zur Aufgabe gemacht hat, Dir bei der Ausübung Deines Rechts auf Datenschutz zu helfen. <a href='https://www.datenanfragen.de'>Zur Webseite.</a>"
+other = "Wir sind der Datenanfragen.de e.&nbsp;V., ein gemeinnütziger Verein, der es sich zur Aufgabe gemacht hat, Dir bei der Ausübung Deines Rechts auf Datenschutz zu helfen."
