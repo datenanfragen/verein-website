@@ -117,3 +117,17 @@ table {
         padding-right: 5px;
     }
 }
+
+.top-right-humaaan {
+    float: right;
+    height: 400px;
+    margin-right: -250px;
+    margin-top: -80px;
+
+    @include mobile {
+        margin: 0;
+        float: none;
+        width: 80vw;
+        height: auto;
+    }
+}

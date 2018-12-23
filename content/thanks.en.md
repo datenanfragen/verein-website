@@ -4,6 +4,8 @@
     "type": "thanks"
 }
 
+<img class="top-right-humaaan" src="/img/humaaans/thanks.svg">
+
 Thank you so much for your donation! It really helps us continue running our website free for everyone in the future and also to start new project for data protection in Europe. You can read about what exactly will happen with your donation in our [yearly reports]({{< ref "transparency" >}}).
 
 If you would like to regularly support us or you just want to be more involved, you can also [become a member]({{< ref "become-a-member" >}}).
