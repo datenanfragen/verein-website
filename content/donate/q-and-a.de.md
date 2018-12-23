@@ -12,11 +12,11 @@
 
     Deine Spende verwenden wir um unsere laufenden Kosten zu decken oder neue Projekte für den Datenschutz in Europa im Sinne [unserer Satzung](/satzung) zu starten. Wohin genau das Geld geflossen ist, kannst du jederzeit in unserem [Jahresbericht](/transparenz) nachlesen. Als gemeinnützige Organisation dürfen wir keinen Überschuss erwirtschaften, das heißt, dass deine Spende sicher einem guten Zweck zugute kommt.
     
-* **Wie erhalte ich eine Spendenbescheinigung?**
+* <a id="spendenbescheinigung-howto"></a>**Wie erhalte ich eine Spendenbescheinigung?**
 
     Nach der Spende wirst du auf eine Seite weitergeleitet, die Dir erklärt, wie Du an die Spendenbescheinigung kommst.
 
-    Falls Deine Spende kleiner als 200 € war, kannst Du dort einen vereinfachten Zuwendungsnachweis herunterladen.  
+    Falls Deine Spende kleiner als 200 € war, kannst Du dort einen [vereinfachten Zuwendungsnachweis](https://static.dacdn.de/docs/vereinfachte-zuwendungsbestaetigung.pdf) herunterladen.  
     Für größere Spenden brauchen wir leider Deine Adresse. Eine Erklärung erhältst Du auch nach Deiner Spende, bei Fragen kannst Du Dich natürlich gerne jederzeit an den [Vorstand]({{< ref "board" >}}) wenden.
  
 * **Wer hat außer mir gespendet?**
@@ -37,7 +37,7 @@
     38126 Braunschweig  
     Deutschland*
 
-    Für Bargeldspenden kannst Du auch das [WERT NATIONAL](https://www.deutschepost.de/de/w/wert-national.html)-Produkt der Deutschen Post, um die Spende gegen Verlust abzusichern. Bitte sorg dafür, dass sich in keinem Fall von außen erkennen lässt, dass Deine Sendung Geld enthält.
+    Für Bargeldspenden kannst Du auch ein Produkt wie [WERT NATIONAL](https://www.deutschepost.de/de/w/wert-national.html) von der Deutschen Post verwenden, um die Spende gegen Verlust abzusichern. Bitte sorg dafür, dass sich in keinem Fall von außen erkennen lässt, dass Deine Sendung Geld enthält.
     
     Bargeldspenden können wir leider nur in Euro annehmen.
 

@@ -8,12 +8,12 @@
 
     We use your donation to pay our running expenses and to start new projects to advance data security in Europe according to [our constitution](/constitution). You can read about exactly where your money ended up going in our [yearly report](/transparency). We are not allowed to earn any profit, so you can be sure that your donation ends up going to a good cause.
     
-* **How do I get a receipt for my donation?**
+* <a id="donation-receipt-howto"></a>**How do I get a receipt for my donation?**
 
-    If you require a receipt from us in order to prove to your tax authority that you donated to a charitable organization, we can provide you with one. After your donation you will be redirected to a page where you can download a (German) receipt for your donation if you only donated a small amount below 200 €.  
-    For a larger donation you will have to send us an email at [vorstand@datenanfragen.de](mailto:vorstand@datenanfragen.de), and tell us your donation ID and address, so that we can create an extended receipt for you.
+    If you require a receipt from us in order to prove to your tax authority that you donated to a public-benefit organization, we can provide you with one. After your donation, you will be redirected to a page where you can download a (German) receipt for your donation if you donated an amount less than 200 €.  
+    For a larger donation, you will have to send us an email at [vorstand@datenanfragen.de](mailto:vorstand@datenanfragen.de), and tell us your donation ID and address, so that we can create an extended receipt for you.
 
-    **Please note that we are only accredited as a charitable organization by the German tax authorities.** Please check your local tax code to see how and if you can deduct your donation to us in your tax returns.
+    **Please note that we are only accredited as a public-benefit organization by German tax authorities.** Please check your local tax code to see how and if you can deduct your donation to us in your tax returns.
  
 * **Who has donated besides me?**
 
@@ -33,9 +33,9 @@
     38126 Braunschweig  
     Germany*
 
-    For cash donations, we recommend using German postal service's [WERT NATIONAL](https://www.deutschepost.de/de/w/wert-national.html) or a similar product offered by your local post office. We do not recommend sending cash donations internationally. In any case, please ensure that the contents of your letter are not visible from the outside.
+    For cash donations, we suggest using the German postal service's [WERT NATIONAL](https://www.deutschepost.de/de/w/wert-national.html) or a similar product offered by your local post office. We do not recommend sending cash donations internationally. In any case, please ensure that the contents of your letter are not visible from the outside.
 
-    The only currency we can accept is Euro.
+    We can only accept cash donations in Euro.
 
 * **How can I donate via SEPA direct debit?**
 

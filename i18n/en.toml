@@ -9,14 +9,14 @@ other = "Datenanfragen.de e. V."
 
 # Home
 
-[home-card-trust-heading]
-other = "Why trust us?"
+[home-card-mission-heading]
+other = "Our goals"
 
-[home-card-trust-content]
-other = "Why should I trust you with my sensitive data? What happens when I create requests? Here are some answers to that."
+[home-card-mission-content]
+other = "What are our goals, why have we started this non-profit? And how do we plan on helping you and others through it?<br>Here are some answers to these questions."
 
-[home-card-trust-button]
-other = "Read more about trust"
+[home-card-mission-button]
+other = "Read more about our goals"
 
 [home-card-donate-heading]
 other = "Donate"

@@ -249,7 +249,7 @@
                             "currency": "EUR",
                         },
                         "description": "Spende für Datenanfragen.de e. V.",
-                        "redirectUrl": "http://localhost:1313/donate/?donation_reference=" + donation_reference, // TODO: dynamic {{ "donate" | absURL }}
+                        "redirectUrl": BASE_URL + "donate/?donation_reference=" + donation_reference,
                         "method": payment_method,
                         "metadata": {
                             "donation_reference": donation_reference
@@ -276,8 +276,8 @@
                         "price_currency": "EUR",
                         "receive_currency": "EUR",
                         "title": "Spende für Datenanfragen.de e. V.",
-                        "success_url": "http://localhost:1313/danke/?donation_reference=" + donation_reference, // TODO: dynamic {{ "thanks" | absURL }}
-                        "cancel_url": "http://localhost:1313/donate",
+                        "success_url": BASE_URL + "danke/?donation_reference=" + donation_reference,
+                        "cancel_url": BASE_URL + "donate",
                         "order_id":  donation_reference
                     }
                 })
