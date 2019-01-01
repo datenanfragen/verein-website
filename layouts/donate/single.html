@@ -77,10 +77,12 @@
 <script type="text/javascript" src='{{ "js/qrcode.min.js" | absURL }}'></script>
 <script>
 	const TRANSLATIONS = JSON.parse({{ T "donation-form-translations" }});
-	const SERVERLESS_DONATIONS_API = "https://ohboz97er1.execute-api.eu-central-1.amazonaws.com/test";
+	const SERVERLESS_DONATIONS_API = "https://donate.dacdn.de";
+	const BASE_URL = {{ "/" | absURL }};
 
 	const SUGGESTED_AMOUNTS = [ 5, 10, 15, 25, 50, 75, 100, 150, 200, 250 ];
-	const PAYMENT_METHODS = [ 'bank-transfer', 'paysafecard', 'directdebit', 'creditcard', 'paypal', 'cryptocurrency', 'mollie' ];
+	// const PAYMENT_METHODS = [ 'bank-transfer', 'paysafecard', 'directdebit', 'creditcard', 'paypal', 'cryptocurrency', 'mollie' ];
+    const PAYMENT_METHODS = [ 'bank-transfer', 'cryptocurrency' ];
 
 	document.getElementById('donation-form-amount').oninput = function(e) {
 		document.querySelectorAll('#donation-form-amount-buttons > button').forEach(function(button) { button.classList.remove('button-primary'); });

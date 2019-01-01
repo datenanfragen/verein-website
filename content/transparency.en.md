@@ -24,7 +24,7 @@ This information is also avilable in our [imprint]({{< ref "contact" >}}).
 
 ## 2. Constitution and purpose
 
-We publish the complete constitution of our association on [this website]({{< ref "constitution" >}}) and on [GitHub](https://github.com/datenanfragen/verein/blob/master/satzung.md), where you will also find a change history in the commits.
+We publish the complete constitution of our association on [this website]({{< ref "constitution" >}}) and on [GitHub](https://github.com/datenanfragen/verein/blob/master/satzung.md).
 
 Our purpose is the same as stated in our constitution but we also compiled and explained it [here]({{< ref "mission-statement" >}}).  
 

@@ -59,7 +59,7 @@
     weight = 10
 [[languages.de.menu.footerright]]
     name = "Datenschutzerklärung"
-    url = "/privacy"
+    url = "/datenschutz"
     weight = 20
 [[languages.de.menu.footerright]]
     name = "Satzung"
