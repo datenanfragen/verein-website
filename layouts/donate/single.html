@@ -81,7 +81,7 @@
 
 	const SUGGESTED_AMOUNTS = [ 5, 10, 15, 25, 50, 75, 100, 150, 200, 250 ];
 	// const PAYMENT_METHODS = [ 'bank-transfer', 'paysafecard', 'directdebit', 'creditcard', 'paypal', 'cryptocurrency', 'mollie' ];
-    const PAYMENT_METHODS = [ 'bank-transfer', 'cryptocurrency' ];
+    const PAYMENT_METHODS = [ 'bank-transfer', 'paysafecard', 'directdebit', 'creditcard', 'cryptocurrency', 'mollie' ];
 
 	document.getElementById('donation-form-amount').oninput = function(e) {
 		document.querySelectorAll('#donation-form-amount-buttons > button').forEach(function(button) { button.classList.remove('button-primary'); });
