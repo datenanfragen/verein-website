@@ -1612,6 +1612,7 @@ postcss-calc@^7.0.0:
 postcss-cli@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/postcss-cli/-/postcss-cli-6.0.1.tgz#24c990f9313c7b21b2c4b2301c8f21591240c23f"
+  integrity sha512-M9GiEMzXVMlI4ln8e+mdeHT+qvoHVZdlN06hj5/EhrRZWDr+J1sniPeGJ4nghknl+du3Oj2UoqqhgpKKhiZ9+w==
   dependencies:
     chalk "^2.1.0"
     chokidar "^2.0.0"
