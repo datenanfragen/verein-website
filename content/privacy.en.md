@@ -2,7 +2,7 @@
     "title": "Privacy Policy",
     "type": "page",
     "slug": "privacy",
-    "aliases": ["datenschutz", "privacy-policy", "datenschutzerklaerung"]
+    "aliases": ["privacy-policy", "data-protection"]
 }
 
 # Privacy policy
