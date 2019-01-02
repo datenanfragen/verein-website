@@ -13,7 +13,7 @@ defaultContentLanguage = "de"
         weight = 10
         title = "Datenanfragen.de e. V."
         copyright = "Dieses Werk ist unter einer Creative Commons Attribution-NoDerviatives 4.0 International-Lizenz lizensiert."
-        baseURL = "https://verein.datenanfragen.de/"
+        baseURL = "https://mollie-staging--datenanfragen-ev.netlify.com/"
     [languages.en]
         languageCode = "en-us"
         mollieLocale = "en_US"
@@ -21,7 +21,7 @@ defaultContentLanguage = "de"
         weight = 20
         title = "Datenanfragen.de e. V."
         copyright = "This work is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License."
-        baseURL = "https://verein.datenanfragen.de/en/"
+        baseURL = "https://mollie-staging--datenanfragen-ev.netlify.com/en/"
 
 [params]
     enableFooterTranslations = true
