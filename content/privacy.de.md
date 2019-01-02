@@ -5,7 +5,7 @@
     "aliases": ["privacy", "privacy-policy", "datenschutzerklaerung"]
 }
 
-# Datenschutzerklärung
+
 
 Unsere Datenschutzerklärung wurde zuletzt am 01. Januar 2019 geändert. <!-- TODO: Offer PDF once privacy policy is finalized. -->
 
