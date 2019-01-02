@@ -9,3 +9,6 @@ YARN_VERSION = "1.12.3"
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.53"
 YARN_VERSION = "1.12.3"
+
+[context.branch-deploy]
+command = "./deploy-branch.sh"
