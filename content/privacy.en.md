@@ -5,8 +5,6 @@
     "aliases": ["privacy-policy", "data-protection"]
 }
 
-# Privacy policy
-
 Our privacy policy was last changed on January 01, 2019.
 
 ## General remarks
@@ -117,7 +115,8 @@ As a member you are likely required to pay membership fees in accordance with ou
 - Affected data: the amount of the corresponding membership fee, your name, your payment details, the payment method, the date of payment
 - Lawful basis: The collection and processing is necessary for the settlement of membership fees and is based on Art. 6(1) lit. b GDPR. In addition, we are subject to certain legal accounting obligations, for which we have to store and process the data pursuant to Art. 6(1) lit. c GDPR.
 - Duration of storage: as long as there are legal storage obligations (refer in particular to § 147(3) of German AO)
-- Data disclosure: Only the board has access to this data. We may have to pass it on to the tax office responsible for us as part of tax statements or similar.
+- Data disclosure: Only the board has access to this data. We may have to pass it on to the tax office responsible for us as part of tax statements or similar.  
+If you decide to pay through one of the external payment gateways we offer, these gateways will receive personal data on you and your payment and will provide some of that data to us. For more details on those third parties and the affected data, have a look at the “External services” section below.
 
 #### Single and recurring donations
 If you send us donations, we will receive data that we have to store and process for accounting purposes.
@@ -127,7 +126,8 @@ We are happy to accept anonymous donations, so providing this information is com
 - Affected data: the donation amount, if applicable your payment details, the payment method, the date of payment
 - Lawful basis: We are subject to certain legal accounting obligations, therefore the storage and processing is based on Art. 6(1) lit. c GDPR.
 - Duration of storage: as long as there are legal storage obligations (refer in particular to § 147(3) of German AO)
-- Data disclosure: Only the board has access to this data. We may have to pass it on to the tax office responsible for us as part of tax statements or similar.
+- Data disclosure: Only the board has access to this data. We may have to pass it on to the tax office responsible for us as part of tax statements or similar.  
+If you decide to pay through one of the external payment gateways we offer, these gateways will receive personal data on you and your payment and will provide some of that data to us. For more details on those third parties and the affected data, have a look at the “External services” section below.
 
 #### Contacting us
 If you contact us (e.g. by email), your message may contain personal data. We will use this data exclusively to answer your message.
@@ -147,6 +147,31 @@ The subscription is entirely voluntary for you. It is currently only available t
 - Lawful basis: By subscribing, you consent to the sending of the newsletter in accordance with Art. 6(1) lit. a GDPR. You can revoke this consent at any time; you can find out how to do this in the section “Right to revoke given consent”.
 - Duration of storage: for the duration of your membership or until you unsubscribe from the newsletter, whichever happens first
 - Data disclosure: The newsletter is sent by the board.
+
+### External services
+
+In order to make our servives more interesting and efficient, we work with some external services.
+
+#### CoinGate
+We allow you to make payments to the association (especially donations and membership fees) through the payment gateway CoinGate. CoinGate is run by UAB Virtualios valiutos, A. Goštauto g. 8, LT-01108 Vilnius, Lithuania.  
+We use CoinGate for crypto currency transactions. We will display a note in the payment form if your payment is made through CoinGate.
+
+If you make a payment through CoinGate, UAB Virtualios valiutos receives all data incurred in the payment process, especially including: the payment amount, the cryto currency you are using, your payment details (like your Bitcoin wallet address), potentially your name, potentially your email address.  
+For more details on how CoinGate processes your data, have a look at their [privacy policy](https://coingate.com/privacy).
+
+#### Mollie
+We allow you to make payments to the association (especially donations and membership fees) through the payment gateway CoinGate. Mollie is run by Mollie B.V., Keizersgracht 313, 1016 EE Amsterdam, Netherlands.  
+We use CoinGate for example for credit card transactions. In any case, we will display a note in the payment form if your payment is made through Mollie.
+
+If you make a payment through Mollie, Mollie B.V. receives all data incurred in the payment process, especially including: your payment details (for example your bank account or credit card details) including the amount, your IP address, your browser and device type, potentially your name, potentially your address, potentially information on the kind of paynebt your are making to us, potentially all other data you actively provide (like when interacting with Mollie's support).  
+For more details on how CoinGate processes your data, have a look at their [privacy policy](https://www.mollie.com/en/privacy).
+
+#### PayPal
+We allow you to make payments to the association (especially donations and membership fees) through the payment gateway PayPal. PayPal is run by PayPal (Europe) S.à.r.l. et Cie, S.C.A., 22-24 Boulevard Royal L-2449, Luxembourg.  
+We will display a note in the payment form if your payment is made through PayPal.
+
+If you make a payment through PayPal, PayPal (Europe) S.à.r.l., S.C.A. receives all data incurred in the payment process, especially including: the amount, data on the payment source for the transaction (for example your bank account or credit card details), device details, technical usage details, location details, your name, your address, your phone number, your email address.  
+For more details on how PayPal processes your data, have a look at their [privacy policy](https://www.paypal.com/en/webapps/mpp/ua/privacy-full).
 
 ## Your rights
 
