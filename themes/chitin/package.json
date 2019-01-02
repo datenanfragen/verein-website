@@ -1,0 +1,45 @@
+{
+    "name": "chitin-hugo-theme",
+    "version": "1.0.0",
+    "private": true,
+    "description": "The hugo theme of the Datenanfragen.de e. V.",
+    "keywords": [
+        "privacy",
+        "gdpr",
+        "eu-gdpr",
+        "hugo"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/datenanfragen/chitin.git"
+    },
+    "author": "Datenanfragen.de e. V.",
+    "contributors": [
+        {
+            "name": "Benjamin Altpeter",
+            "email": "hi@bn.al",
+            "url": "https://benjamin-altpeter.de"
+        },
+        {
+            "name": "Lorenz Sieben",
+            "email": "me@lorenz-sieben.com",
+            "url": "https://lorenz-sieben.com"
+        }
+    ],
+    "license": "MIT",
+    "scripts": {
+        "build": "BABEL_ENV=production; webpack --mode=production --config webpack.prod.js",
+        "dev": "webpack --watch --mode=development --config webpack.dev.js"
+    },
+    "bugs": {
+        "url": "https://github.com/datenanfragen/verein-website/issues"
+    },
+    "homepage": "https://verein.datenanfragen.de",
+    "dependencies": {
+        "cssnano": "^4.1.7",
+        "postcss-cli": "^6.0.1",
+        "postcss-preset-env": "^6.3.0",
+        "sugarss": "^2.0.0",
+        "postcss-fonticons": "^1.0.0"
+    }
+}
