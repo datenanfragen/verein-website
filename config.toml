@@ -8,13 +8,20 @@ defaultContentLanguage = "de"
 [languages]
     [languages.de]
         languageCode = "de-de"
+        mollieLocale = "de_DE"
         languageName = "Deutsch"
         weight = 10
-        title = "Datenanfragen.de – Du hast ein Recht auf Datenschutz, wir helfen Dir es zu nutzen"
+        title = "Datenanfragen.de e. V."
         copyright = "Dieses Werk ist unter einer Creative Commons Attribution-NoDerviatives 4.0 International-Lizenz lizensiert."
+        baseURL = "de/"
     [languages.en]
         languageCode = "en-us"
+        mollieLocale = "en_US"
         languageName = "English"
         weight = 20
-        title = "datarequests.org—You have a right to privacy, we help you use it"
+        title = "Datenanfragen.de e. V."
         copyright = "This work is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License."
+        baseURL = "en/"
+
+[params]
+    enableFooterTranslations = true
