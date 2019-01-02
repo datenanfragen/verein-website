@@ -2,10 +2,10 @@
     "title": "Privacy Policy",
     "type": "page",
     "slug": "privacy",
-    "aliases": ["datenschutz", "privacy-policy", "datenschutzerklaerung"]
+    "aliases": ["privacy-policy", "data-protection"]
 }
 
-
+# Privacy policy
 
 Our privacy policy was last changed on January 01, 2019.
 
