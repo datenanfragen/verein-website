@@ -5,8 +5,6 @@
     "aliases": ["privacy", "privacy-policy", "datenschutzerklaerung"]
 }
 
-
-
 Unsere Datenschutzerklärung wurde zuletzt am 01. Januar 2019 geändert. <!-- TODO: Offer PDF once privacy policy is finalized. -->
 
 ## Allgemeine Hinweise
@@ -139,7 +137,8 @@ Als Mitglied bist Du wahrscheinlich zur Zahlung von Mitgliedsbeiträgen nach uns
 - Betroffene Daten: die Höhe des entsprechenden Mitgliedsbeitrags, Dein Name, Deine Zahlungsdaten, die Zahlungsmöglichkeit, das Datum der Zahlung
 - Rechtsgrundlage: Die Erhebung und Verarbeitung ist zur Abrechnung der Mitgliedsbeiträge erforderlich, sie erfolgt auf Basis des Art. 6 Abs. 1 lit. b DSGVO. Darüber hinaus unterliegen wir gewissen rechtlichen Buchhaltungspflichten, für welche wir die Daten im Sinne des Art. 6 Abs. 1 lit. c speichern und verarbeiten müssen.
 - Dauer der Speicherung: solange gesetzliche Aufbewahrungspflichten vorliegen (vgl. dazu insb. § 147 Abs. 3 AO)
-- Weitergabe der Daten: Auf diese Daten hat grundsätzlich nur der Vorstand Zugriff. Wir müssen sie u.&nbsp;U. im Rahmen von Steuererklärungen o.&nbsp;Ä. an das für uns zuständige Finanzamt weitergeben.
+- Weitergabe der Daten: Auf diese Daten hat grundsätzlich nur der Vorstand Zugriff. Wir müssen sie u.&nbsp;U. im Rahmen von Steuererklärungen o.&nbsp;Ä. an das für uns zuständige Finanzamt weitergeben.  
+Wenn Du Dich entscheidest, über einen der externen Zahlungsanbieter, die wir anbieten, zu bezahlen, erhält dieser Anbieter personenbezogene Daten über Dich und Deine Zahlung und wird einige dieser Daten an uns weitergeben. Weitere Informationen zu den Anbietern und den verarbeiteten Daten findest Du weiter unten im Abschnitt „Externe Dienste“.
 
 #### Einzel- und Dauerspenden
 
@@ -150,7 +149,8 @@ Wir nehmen gerne auch anonyme Spenden an, von daher ist die Bereitstellung diese
 - Betroffene Daten: die Höhe der Spende, ggf. Deine Zahlungsdaten, die Zahlungsmöglichkeit, das Datum der Zahlung
 - Rechtsgrundlage: Wir unterliegen gewissen rechtlichen Buchhaltungspflichten, deshalb erfolgt die Speicherung und Verarbeitung auf Basis des Art. 6 Abs. 1 lit. c DSGVO.
 - Dauer der Speicherung: solange gesetzliche Aufbewahrungspflichten vorliegen (vgl. dazu insb. § 147 Abs. 3 AO)
-- Weitergabe der Daten: Auf diese Daten hat grundsätzlich nur der Vorstand Zugriff. Wir müssen sie u.&nbsp;U. im Rahmen von Steuererklärungen o.&nbsp;Ä. an das für uns zuständige Finanzamt weitergeben.
+- Weitergabe der Daten: Auf diese Daten hat grundsätzlich nur der Vorstand Zugriff. Wir müssen sie u.&nbsp;U. im Rahmen von Steuererklärungen o.&nbsp;Ä. an das für uns zuständige Finanzamt weitergeben.  
+Wenn Du Dich entscheidest, über einen der externen Zahlungsanbieter, die wir anbieten, zu bezahlen, erhält dieser Anbieter personenbezogene Daten über Dich und Deine Zahlung und wird einige dieser Daten an uns weitergeben. Weitere Informationen zu den Anbietern und den verarbeiteten Daten findest Du weiter unten im Abschnitt „Externe Dienste“.
 
 #### Kontaktaufnahme
 Wenn Du Kontakt zu uns aufnimmst (z&nbsp;B. per E-Mail), enthält Deine Nachricht u.&nbsp;U. personenbezogene Daten. Wir werden diese Daten ausschließlich zur Beantwortung Deiner Nachricht verwenden. Zugriff auf die Daten hat die entsprechende Stelle, an die Du Dich wendest.
@@ -170,6 +170,32 @@ Die Anmeldung ist vollkommen freiwillig für Dich. Sie ist aktuell nur für Mitg
 - Rechtsgrundlage: Mit der Anmeldung zum Newsletter erteilst Du uns eine Einwilligung zur Zusendung von Informationen nach Art. 6 Abs. 1 lit. a DSGVO. Diese Einwilligung kannst Du jederzeit widerrufen; wie das geht, erfährst Du im Abschnitt „Recht auf Widerruf erteilter Einwilligungen“.
 - Dauer der Speicherung: für die Dauer Deiner Mitgliedschaft oder bis Du Dich vom Newsletter abmeldest, was immer früher eintritt
 - Weitergabe der Daten: Die Zusendung des Newsletters erfolgt durch den Vorstand.
+
+### Externe Dienste
+
+Um unsere Angebote attraktiver und effizienter gestalten, arbeiten wir mit einigen externen Dienstleistern.
+
+#### CoinGate
+Wir bieten Dir die Möglichkeiten, Zahlungen an den Verein (insb. Spenden und Mitgliedsbeiträge) über die Zahlungsplattform CoinGate zu tätigen. CoinGate ist ein Angebot der UAB Virtualios valiutos, A. Goštauto g. 8, LT-01108 Vilnius, Litauen.  
+Wir setzen CoinGate für Zahlungen mit Crypowährungen ein. In jedem Fall wird Dir in dem Zahlungsformular angezeigt, wenn Deine ausgewählte Zahlungsmethode von CoinGate zur Verfügung gestellt wird.
+
+Wenn Du über CoinGate eine Zahlung tätigst, erhält die UAB Virtualios valiutos sämtliche Daten, die im Zahlungsvorgang anfallen, dazu zählen insbesondere: der Betrag Deiner Zahlung, die Cryptowährung, mit der Du bezahlst, Deine Bezahldaten (z.&nbsp;B. die Adresse Deiner Bitcoin-Wallet), ggf. Deinen Namen, ggf. Deine E-Mail-Adresse.  
+Weitere Informationen dazu, wie CoinGate Deine Daten verarbeitet, findest Du in deren [Datenschutzerklärung](https://coingate.com/privacy).
+
+#### Mollie
+
+Wir bieten Dir die Möglichkeiten, Zahlungen an den Verein (insb. Spenden und Mitgliedsbeiträge) über die Zahlungsplattform Mollie zu tätigen. Mollie ist ein Angebot der Mollie B.V., Keizersgracht 313, 1016 EE Amsterdam, Niederlande.  
+Wir setzen Mollie bspw. für Kreditkartenzahlungen ein. In jedem Fall wird Dir in dem Zahlungsformular angezeigt, wenn Deine ausgewählte Zahlungsmethode von Mollie zur Verfügung gestellt wird.
+
+Wenn Du über Mollie eine Zahlung tätigst, erhält die Mollie B.V. sämtliche Daten, die im Zahlungsvorgang anfallen, dazu zählen insbesondere: Deine Bezahldaten (z.&nbsp;B. Konto- oder Kreditkartennummer) inkl. dem Betrag, Deine IP-Adresse, Dein Browser und Gerätetyp, ggf. Dein Name, ggf. Deine Adressdaten, ggf. Informationen über die Art von Zahlung, die an uns tätigst, ggf. sonstige personenbezogene Daten, die Du aktiv bereitstellst (z.&nbsp;B. bei Korrespondenz mit dem Kundendienst von Mollie).  
+Weitere Informationen dazu, wie Mollie Deine Daten verarbeitet, findest Du in deren [Datenschutzerklärung](https://www.mollie.com/de/privacy).
+
+#### PayPal
+Wir bieten Dir die Möglichkeiten, Zahlungen an den Verein (insb. Spenden und Mitgliedsbeiträge) über die Zahlungsplattform PayPal zu tätigen. PayPal ist ein Angebot der PayPal (Europe) S.à.r.l. et Cie, S.C.A., 22-24 Boulevard Royal L-2449, Luxemburg.  
+Im Zahlungsformular wird Dir angezeigt, wenn Deine Zahlung über PayPal stattfindet.
+
+Wenn Du über PayPal eine Zahlung tätigst, erhält die PayPal (Europe) S.à.r.l., S.C.A. sämtliche Daten, die im Zahlungsvorgang anfallen, dazu zählen insbesondere: der gesendete Betrag, Angaben zu Zahlungsquellen, die für die Transaktion verwendet wurden (z.&nbsp;B. Deine Bankkontoinformationen oder Kreditkartendaten), Geräteinformationen, technische Nutzungsdaten, Standortdaten, Dein Name, Deine Adresse, Deine Telefonnummer, Deine E-Mail-Adresse.  
+Weitere Informationen dazu, wie PayPal Deine Daten verarbeitet, findest Du in deren [Datenschutzerklärung](https://www.paypal.com/de/webapps/mpp/ua/privacy-full).
 
 ## Deine Rechte
 
