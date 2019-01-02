@@ -5,7 +5,7 @@
     "aliases": ["datenschutz", "privacy-policy", "datenschutzerklaerung"]
 }
 
-# Privacy policy
+
 
 Our privacy policy was last changed on January 01, 2019.
 
