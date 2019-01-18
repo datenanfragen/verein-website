@@ -5,7 +5,7 @@
     "aliases": ["privacy-policy", "data-protection"]
 }
 
-Our privacy policy was last changed on January 01, 2019.
+Our privacy policy was last changed on January 02, 2019.
 
 ## General remarks
 
@@ -112,9 +112,10 @@ Providing this data is necessary for us to fulfill our obligations laid down in 
 #### Membership fees
 As a member you are likely required to pay membership fees in accordance with our membership fee regulation. After your membership application has been accepted, we will ask for your payment details and the desired payment method. We need this data for billing purposes and for issuing donation receipts.
 
-- Affected data: the amount of the corresponding membership fee, your name, your payment details, the payment method, the date of payment
+- Affected data: the amount of the corresponding membership fee, your name, your payment details, the payment method, the date of payment  
+If you have given us a SEPA direct debit mandate for your membership fees, the following data is also affected: your address, your mandate reference, the date of your SEPA direct debit mandate
 - Lawful basis: The collection and processing is necessary for the settlement of membership fees and is based on Art. 6(1) lit. b GDPR. In addition, we are subject to certain legal accounting obligations, for which we have to store and process the data pursuant to Art. 6(1) lit. c GDPR.
-- Duration of storage: as long as there are legal storage obligations (refer in particular to § 147(3) of German AO)
+- Duration of storage: in general as long as there are legal storage obligations (refer in particular to § 147(3) of German AO), in addition our bank requires us the keep SEPA direct debit mandates for 14 months after the last debit has been made
 - Data disclosure: Only the board has access to this data. We may have to pass it on to the tax office responsible for us as part of tax statements or similar.  
 If you decide to pay through one of the external payment gateways we offer, these gateways will receive personal data on you and your payment and will provide some of that data to us. For more details on those third parties and the affected data, have a look at the “External services” section below.
 

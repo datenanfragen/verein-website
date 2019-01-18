@@ -5,7 +5,7 @@
     "aliases": ["privacy", "privacy-policy", "datenschutzerklaerung"]
 }
 
-Unsere Datenschutzerklärung wurde zuletzt am 01. Januar 2019 geändert. <!-- TODO: Offer PDF once privacy policy is finalized. -->
+Unsere Datenschutzerklärung wurde zuletzt am 02. Januar 2019 geändert. <!-- TODO: Offer PDF once privacy policy is finalized. -->
 
 ## Allgemeine Hinweise
 
@@ -67,27 +67,6 @@ Um Dir die größtmögliche Kontrolle über Deine Privatsphäre zu ermöglichen,
 
 In diesem Abschnitt möchten wir Dir genau erklären, unter welchen Umständen wir welche Daten erheben und verarbeiten.
 
-<!--
-Für jede Kategorie von erfassten personenbezogenen Daten ist ein solcher Abschnitt in der passenden Sektion unten einzufügen, bzgl. der Angaben vgl. Art. 13 DSGVO:
-
-#### Kurzbezeichnung
-Kurzer Text, der die Datenkategorie erklärt, Zweck der Verarbeitung
-
-[{Ob die Bereitstellung der personenbezogenen Daten gesetzlich oder vertraglich vorgeschrieben oder für einen Vertragsabschluss erforderlich ist, ob die betroffene Person verpflichtet ist, die personenbezogenen Daten bereitzustellen, und welche möglichen Folgen die Nichtbereitstellung hätte.}]
-
-- Betroffene Daten: {Liste}
-[
-wenn durch Dritten erhoben (Art. 14 DSGVO):
-- Erhoben durch: {Name und Kontaktdaten} (Details dazu, wie {Name} Deine Daten verwendet, kannst Du deren [Datenschutzerklärung]({Link}}) entnehmen.)  
-[Datenschutzbeautrage_r: {Kontaktdaten}]  
-[Bei Privacy Shield-Zertifizierung: [{Unternehmen}]({Link zu Privacy Shield-Liste}) ist über das US-europäische Datenschutzabkommen „Privacy Shield“ zertifiziert, welches die Wahrung des EU-Datenschutzniveaus sicherstellt.]
-]
-- Rechtsgrundlage: {Gesetz, i.d.R. aus Art. 6 DSGVO [bei Art. 6 Abs. 1 lit. f DSGVO: berechtigtes Interesse konkret angeben] [bei Art. 6 Abs. 1 lit. a DSGVO: Diese Einwilligung kannst Du jederzeit widerrufen; wie das geht, erfährst Du im Abschnitt „Recht auf Widerruf erteilter Einwilligungen“.]}
-- Dauer der Speicherung: {}
-- [Weitergabe der Daten: {Empfänger_innen (oder Kategorien von Empfänger_innen)}]
-- [{Absicht, Daten an Drittland oder internationale Organisation zu übermitteln}]
--->
-
 ### Informationen, die wir automatisch sammeln
 
 #### Server-Logdateien
@@ -134,9 +113,10 @@ Die Angabe und Verarbeitung dieser Daten ist notwendig, damit wir unseren satzun
 
 Als Mitglied bist Du wahrscheinlich zur Zahlung von Mitgliedsbeiträgen nach unserer Beitragsordnung verpflichtet. Nachdem Dein Mitgliedsantrag angenommen wurde, fragen wir Deine Zahlungsdaten und gewünschte Zahlungsmöglichkeit ab. Diese Daten brauchen wir zu Abrechnungszwecken und zur Ausstellung von Zuwendungsbescheinigungen.
 
-- Betroffene Daten: die Höhe des entsprechenden Mitgliedsbeitrags, Dein Name, Deine Zahlungsdaten, die Zahlungsmöglichkeit, das Datum der Zahlung
+- Betroffene Daten: die Höhe des entsprechenden Mitgliedsbeitrags, Dein Name, Deine Zahlungsdaten, die Zahlungsmöglichkeit, das Datum der Zahlung  
+Wenn Du uns ein SEPA-Lastschriftmandat für Deinen Mitgliedsbeitrag erteilst, sind darüber hinaus folgende Daten betroffen: Deine Adresse, Deine Mandatsreferenz, das Datum des SEPA-Lastschriftmandats
 - Rechtsgrundlage: Die Erhebung und Verarbeitung ist zur Abrechnung der Mitgliedsbeiträge erforderlich, sie erfolgt auf Basis des Art. 6 Abs. 1 lit. b DSGVO. Darüber hinaus unterliegen wir gewissen rechtlichen Buchhaltungspflichten, für welche wir die Daten im Sinne des Art. 6 Abs. 1 lit. c speichern und verarbeiten müssen.
-- Dauer der Speicherung: solange gesetzliche Aufbewahrungspflichten vorliegen (vgl. dazu insb. § 147 Abs. 3 AO)
+- Dauer der Speicherung: grundsätzlich solange gesetzliche Aufbewahrungspflichten vorliegen (vgl. dazu insb. § 147 Abs. 3 AO), darüber hinaus verpflichtet uns unsere Bank, SEPA-Lastschriftmandate für 14 Monate nach der letzten eingezogenen Lastschrift aufzubewahren
 - Weitergabe der Daten: Auf diese Daten hat grundsätzlich nur der Vorstand Zugriff. Wir müssen sie u.&nbsp;U. im Rahmen von Steuererklärungen o.&nbsp;Ä. an das für uns zuständige Finanzamt weitergeben.  
 Wenn Du Dich entscheidest, über einen der externen Zahlungsanbieter, die wir anbieten, zu bezahlen, erhält dieser Anbieter personenbezogene Daten über Dich und Deine Zahlung und wird einige dieser Daten an uns weitergeben. Weitere Informationen zu den Anbietern und den verarbeiteten Daten findest Du weiter unten im Abschnitt „Externe Dienste“.
 
