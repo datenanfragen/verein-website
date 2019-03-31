@@ -5,7 +5,7 @@
     "aliases": ["privacy", "privacy-policy", "datenschutzerklaerung"]
 }
 
-Unsere Datenschutzerklärung wurde zuletzt am 02. Januar 2019 geändert. <!-- TODO: Offer PDF once privacy policy is finalized. -->
+Unsere Datenschutzerklärung wurde zuletzt am 23. Februar 2019 geändert. <!-- TODO: Offer PDF once privacy policy is finalized. -->
 
 ## Allgemeine Hinweise
 
@@ -85,7 +85,7 @@ Die Amazon Web Services, Inc. ist über die [Amazon.com, Inc.](https://www.priva
 Wenn Du Inhalte auf unseren Webseiten veröffentlichst (z.&nbsp;B. in Form von Kommentaren oder Beiträgen zu unserer Unternehmensdatenbank), enthalten diese u.&nbsp;U. personenbezogene Daten. Die Bereitstellung dieser Daten ist vollkommen freiwillig für Dich. Es ergeben sich keinerlei Konsequenzen aus einer Nichtbereitstellung.
 
 - Betroffene Daten: die Daten, die Du in Deinem Beitrag angibst
-- Rechtsgrundlage: Die Grundlage der Speicherung ist unser rechtmäßiges Interesse, die Nutzer_innenbeiträge auf unserer Webseite anzuzeigen im Sinne des Art. 6 Abs. 1 lit. a DSGVO.
+- Rechtsgrundlage: Die Grundlage der Speicherung ist unser rechtmäßiges Interesse, die Nutzer_innenbeiträge auf unserer Webseite anzuzeigen im Sinne des Art. 6 Abs. 1 lit. f DSGVO.
 - Dauer der Speicherung: unbeschränkt
 - Weitergabe der Daten: Die Nutzer_inneninhalte sind öffentlich auf unserer Webseite einsehbar.
 
@@ -94,7 +94,7 @@ Wenn Du uns eine Fehlermeldung schickst, enthält diese u.&nbsp;U. personenbezog
 
 - Betroffene Daten: Informationen zum aufgetretenen Fehler, Informationen zu Deinem Browser und Betriebssystem (der sogenannte „User-Agent-String“), die vollständige URL der Unterseite, auf der Du Dich beim Auftreten des Fehlers befunden hast und evtl. Daten, die Du auf der entsprechenden Unterseite angegeben hast  
 Vor dem Absenden der Fehlermeldung werden Dir sämliche betroffenen Daten angezeigt und Du hast die Möglichkeit, diese anzupassen und zu entfernen.
-- Rechtsgrundlage: Die Grundlage der Speicherung ist unser rechtmäßiges Interesse, die Stabilität und Funktionalität unserer Webseite zu verbessern im Sinne des Art. 6 Abs. 1 lit. a DSGVO.
+- Rechtsgrundlage: Die Grundlage der Speicherung ist unser rechtmäßiges Interesse, die Stabilität und Funktionalität unserer Webseite zu verbessern im Sinne des Art. 6 Abs. 1 lit. f DSGVO.
 - Dauer der Speicherung: unbeschränkt
 - Weitergabe der Daten: Der Inhalt von Fehlermeldungen ist ggf. über unseren [Issue-Tracker auf GitHub](https://github.com/datenanfragen/website/issues) öffentlich einsehbar.  
 GitHub wird betrieben von der GitHub, Inc., 88 Colin P Kelly Jr Street, San Francisco, CA 94107, USA und deren Tochterunternehmen GitHub BV, Vijzelstraat 68 – 72, 1017 HL Amsterdam, Niederlande. Weitere Informationen dazu, wie GitHub Deine Daten verarbeitet, findest Du in [deren Datenschutzerklärung](https://help.github.com/articles/github-privacy-statement/). Die [GitHub, Inc.](https://www.privacyshield.gov/participant?id=a2zt000000001K2AAI) ist über das US-europäische Datenschutzabkommen „Privacy Shield“ zertifiziert, welches die Wahrung des EU-Datenschutzniveaus sicherstellt.
