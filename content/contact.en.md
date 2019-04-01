@@ -7,7 +7,6 @@
 
 **Mail address** (no office hours):  
 Datenanfragen.de e.&nbsp;V.  
-c/o Benjamin Altpeter  
 Schreinerweg 6  
 38126 Braunschweig  
 Germany
@@ -30,7 +29,7 @@ Benjamin Altpeter, Schreinerweg 6, 38126 Braunschweig, Germany
 		"name": "Datenanfragen.de e. V.",
 		"address": {
 			"@type": "PostalAddress",
-			"streetAddress": "c/o Benjamin Altpeter, Schreinerweg 6",
+			"streetAddress": "Schreinerweg 6",
 			"postalCode": "38126",
 			"addressLocality": "Braunschweig",
 			"addressCountry": "DE"
