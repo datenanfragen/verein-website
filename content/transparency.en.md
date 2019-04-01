@@ -3,9 +3,9 @@
     "type": "page"
 }
 
-In order for you to be able to trust us, we pledged to be as transparent as possible about our procedures, finances and decisions. Because of that, we are part of the [Initiative for a Transparent Civil Society](https://www.transparency.de/mitmachen/initiative-transparente-zivilgesellschaft/), an initiative by the German branch of Transparency International, which is allowed to audit us on a sample basis. They ensure that we will keep our promise of transparent management. On this page we summarized all the important information that we publish as part of that.
+In order for you to be able to trust us, we pledged to be as transparent as possible about our procedures, finances and decisions. Because of that, we are planing to join the [Initiative for a Transparent Civil Society](https://www.transparency.de/mitmachen/initiative-transparente-zivilgesellschaft/), an initiative by the German branch of Transparency International, which is allowed to audit us on a sample basis. They ensure that we will keep our promise of transparent management. On this page we summarized all the important information that we publish as part of that.
 
-This information has been last updated on December 10, 2018.
+This information has been last updated on April 2, 2019.
 
 ## 1. Name, registered seat, address and date of foundation
 This information is also avilable in our [imprint]({{< ref "contact" >}}).
@@ -41,7 +41,7 @@ The association is managed by the [board](/board). It is comprised of:
  
 ## 5. Report of activities
 
-As of now, no reports have been issued to the association members or the tax authorities.
+ - [Yearly report 2018 (German, p. 9 ff.)](/downloads/bericht-2018.pdf)
 
 ## 6. Staff structure
 
@@ -49,11 +49,11 @@ The association has no staff.
 
 ## 7. Funding sources
 
-As of now, no yearly reports have been issued to the association members or the tax authorities. All current funds have been acquired as donations. 
+ - [Yearly report 2018 (German, p. 17 f.)](/downloads/bericht-2018.pdf)
 
 ## 8. Use of funds
 
-As of now, no yearly reports have been issued to the association members or the tax authorities. All current funds have been used in accordance with the purpose as defined by the constitution. 
+ - [Yearly report 2018 (German, p. 17 f.)](/downloads/bericht-2018.pdf)
 
 ## 9. Corporate relationships with third parties 
 
@@ -61,4 +61,8 @@ The association is in no corporate relationships with any third parties.
 
 ## 10. Names of entities whose donations make up more than 10% of the yearly budget
 
-As of now, no yearly reports on the received donations have been issued to the association members or the tax authorities. The next report is expected for mid 2019.
+As of the [yearly report of 2018 (German)](/downloads/bericht-2018.pdf):
+
+ - membership fee by anonymous: 128 €
+ - membership fee by anonymous: 50 €
+ - membership fee by anonymous: 42 €

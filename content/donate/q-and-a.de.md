@@ -16,7 +16,7 @@
 
     Nach der Spende wirst du auf eine Seite weitergeleitet, die Dir erklärt, wie Du an die Spendenbescheinigung kommst.
 
-    Falls Deine Spende kleiner als 200 € war, kannst Du dort einen [vereinfachten Zuwendungsnachweis](https://static.dacdn.de/docs/vereinfachte-zuwendungsbestaetigung.pdf) herunterladen.  
+    Grundsätzlich stellen wir nur Spendenbescheinigungen aus, wenn Du per Überweisung, Bankeinzug, PayPal oder Kreditkarte bezahlt hast. Nach der Bezahlung wirst Du auf eine Abschlusseite weitergeleitet. Falls Deine Spende kleiner als 200 € war, kannst Du dort einen [vereinfachten Zuwendungsnachweis](https://static.dacdn.de/docs/vereinfachte-zuwendungsbestaetigung.pdf) herunterladen.  
     Für größere Spenden brauchen wir leider Deine Adresse. Eine Erklärung erhältst Du auch nach Deiner Spende, bei Fragen kannst Du Dich natürlich gerne jederzeit an den [Vorstand]({{< ref "board" >}}) wenden.
  
 * **Wer hat außer mir gespendet?**
@@ -29,10 +29,9 @@
 
 * **Wie kann ich anonym spenden?**
 
-    Wenn Du uns Deine Identität nicht preisgeben möchtest, kannst Du entweder eine [paysafecard kaufen](https://www.paysafecard.com/de-de/kaufen/verkaufsstellen-finden/verkaufsstellen/), eine anonyme Cryptowährung verwenden oder Bargeld per Post an unsere Adresse schicken:
+    Wenn Du uns Deine Identität nicht preisgeben möchtest, kannst Du entweder eine anonyme Cryptowährung verwenden oder Bargeld per Post an unsere Adresse schicken:
 
     *Datenanfragen.de e.&thinsp;V.  
-    c/o Benjamin Altpeter  
     Schreinerweg 6  
     38126 Braunschweig  
     Deutschland*
