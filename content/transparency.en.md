@@ -16,11 +16,11 @@ This information is also avilable in our [imprint]({{< ref "contact" >}}).
  - Registration number: VR 201732
  - Address:  
    Datenanfragen.de e.&thinsp;V  
-   c/o Benjamin Altpeter  
    Schreinerweg 6  
    38126 Braunschweig  
    Germany  
  - Date of foundation: June 14, 2018
+ - Transparency correspondent: Benjamin Altpeter ([transparenz@datenanfragen.de](mailto:transparenz@datenanfragen.de) or the address mentions above)
 
 ## 2. Constitution and purpose
 
@@ -41,7 +41,7 @@ The association is managed by the [board](/board). It is comprised of:
  
 ## 5. Report of activities
 
- - [Yearly report 2018 (German, p. 9 ff.)](/downloads/bericht-2018.pdf)
+ - [Yearly report 2018 (German, p. 5 ff.)](/downloads/bericht-2018.pdf)
 
 ## 6. Staff structure
 
@@ -49,11 +49,11 @@ The association has no staff.
 
 ## 7. Funding sources
 
- - [Yearly report 2018 (German, p. 17 f.)](/downloads/bericht-2018.pdf)
+ - [Yearly report 2018 (German, p. 9 f.)](/downloads/bericht-2018.pdf)
 
 ## 8. Use of funds
 
- - [Yearly report 2018 (German, p. 17 f.)](/downloads/bericht-2018.pdf)
+ - [Yearly report 2018 (German, p. 9 f.)](/downloads/bericht-2018.pdf)
 
 ## 9. Corporate relationships with third parties 
 
@@ -61,8 +61,14 @@ The association is in no corporate relationships with any third parties.
 
 ## 10. Names of entities whose donations make up more than 10% of the yearly budget
 
-As of the [yearly report of 2018 (German)](/downloads/bericht-2018.pdf):
+The information is based on the [yearly report of 2018 (German)](/downloads/bericht-2018.pdf).
+
+### People
 
  - membership fee by anonymous: 128 €
  - membership fee by anonymous: 50 €
- - membership fee by anonymous: 42 €
+ - membership fee by anonymous: 42 € 
+
+### Organisations
+
+ No organsations contributed to our budget in 2018.
