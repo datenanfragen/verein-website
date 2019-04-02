@@ -32,7 +32,7 @@ Unsere Ziele entsprechen den Zwecken, die die Satzung festlegt, wir haben sie ab
 
 ## 3. Angaben zur Steuerbegünstigung
 
-Das Finanzamt Braunschweig-Wilhelmstraße hat uns per [Feststellungsbescheid nach § 60a AO vom 21. Juni 2018](https://static.dacdn.de/docs/feststellungsbescheid_2018-06-21.pdf) zur Förderung von Verbraucherberatung und -schutz sowie des demokratischen Staatswesens als gemeinnützig anerkannt. Unsere Steuernummer ist: 14/209/11640
+Das Finanzamt Braunschweig-Wilhelmstraße hat uns per [Feststellungsbescheid nach §&nbsp;60a AO vom 21. Juni 2018](https://static.dacdn.de/docs/feststellungsbescheid_2018-06-21.pdf) zur Förderung von Verbraucherberatung und -schutz sowie des demokratischen Staatswesens als gemeinnützig anerkannt. Unsere Steuernummer ist: 14/209/11640
 
 ## 4. Name und Funktion wesentlicher Entscheidungsträger
 
@@ -63,7 +63,7 @@ Der Verein steht in keinerlei gesellschaftsrechtlicher Verbundenheit mit Dritten
 
 ## 10. Namen von Personen, deren jährliche Zahlungen mehr als 10 % des Gesamtjahresbudgets ausmachen
 
-Die Informationen sind auch dem Stand des [Jahresberichts von 2018](/downloads/bericht-2018.pdf).
+Die Informationen sind auf dem Stand des [Jahresberichts von 2018](/downloads/bericht-2018.pdf).
 
 ### Natürliche Personen
 

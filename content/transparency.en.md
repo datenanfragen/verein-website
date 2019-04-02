@@ -20,7 +20,7 @@ This information is also avilable in our [imprint]({{< ref "contact" >}}).
    38126 Braunschweig  
    Germany  
  - Date of foundation: June 14, 2018
- - Transparency correspondent: Benjamin Altpeter ([transparenz@datenanfragen.de](mailto:transparenz@datenanfragen.de) or the address mentions above)
+ - Transparency correspondent: Benjamin Altpeter ([transparenz@datenanfragen.de](mailto:transparenz@datenanfragen.de) or via the address mentioned above)
 
 ## 2. Constitution and purpose
 
