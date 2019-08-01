@@ -3,7 +3,12 @@
     "version": "1.0.0",
     "private": true,
     "description": "The website of the Datenanfragen.de e. V.",
-    "keywords": ["privacy", "gdpr", "eu-gdpr", "hugo"],
+    "keywords": [
+        "privacy",
+        "gdpr",
+        "eu-gdpr",
+        "hugo"
+    ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/datenanfragen/verein-website.git"
