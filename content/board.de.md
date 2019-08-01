@@ -15,11 +15,11 @@ Es sind aktuell keine Beisitzer_innen im Vorstand vertreten.
 Wenn Du den Vorstand kontaktieren möchtest, geht das auf verschiedene Weisen:
 
 * per E-Mail an: [vorstand@datenanfragen.de](mailto:vorstand@datenanfragen.de) ([PGP-Key](/pgp/3E2B296B.asc) `2E72 EA5B DDE3 1730 58D7  F87D A0C1 C012 3E2B 296B`)
-* per Telefon an: +49 531 209299 35 (keine Geschäftszeiten)
+* per Telefon an: +49&nbsp;531&nbsp;209299&nbsp;35 (keine Geschäftszeiten)
+* per Fax an: +49&nbsp;531&nbsp;209299&nbsp;36
 * per Post an:  
     *Vorstand  
     Datenanfragen.de e. V.  
-    c/o Benjamin Altpeter  
     Schreinerweg 6  
     38126 Braunschweig  
     Deutschland*

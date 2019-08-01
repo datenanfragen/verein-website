@@ -3,9 +3,11 @@
     "type": "page"
 }
 
-In order for you to be able to trust us, we pledged to be as transparent as possible about our procedures, finances and decisions. Because of that, we are planing to join the [Initiative for a Transparent Civil Society](https://www.transparency.de/mitmachen/initiative-transparente-zivilgesellschaft/), an initiative by the German branch of Transparency International, which is allowed to audit us on a sample basis. They ensure that we will keep our promise of transparent management. On this page we summarized all the important information that we publish as part of that.
+<a href="https://www.transparency.de/mitmachen/initiative-transparente-zivilgesellschaft/"><img src="/img/logo-itz.svg" style="float: right; width: 40%; min-width: 200px; padding: 5px;"></a>
 
-This information has been last updated on April 2, 2019.
+In order for you to be able to trust us, we pledged to be as transparent as possible about our procedures, finances and decisions. Because of that, we have joined the [Initiative for a Transparent Civil Society](https://www.transparency.de/mitmachen/initiative-transparente-zivilgesellschaft/), an initiative by the German branch of Transparency International, which is allowed to audit us on a sample basis. They ensure that we will keep our promise of transparent management. On this page we summarized all the important information that we publish as part of that.
+
+This information has been last updated on August 1, 2019.
 
 ## 1. Name, registered seat, address and date of foundation
 This information is also avilable in our [imprint]({{< ref "contact" >}}).
@@ -35,25 +37,31 @@ The tax office Braunschweig-Wilhelmstraße approved us as a public benefit organ
 ## 4. Name and function of significant decision makers
 
 The association is managed by the [board](/board). It is comprised of:
- 
+
  - Benjamin Altpeter, Chairman
  - Lorenz Sieben, Chairman
- 
+
+There are currently no assessors on the board.
+
 ## 5. Report of activities
 
- - [Yearly report 2018 (German, p. 5 ff.)](/downloads/bericht-2018.pdf)
+see [Yearly report 2018 (German, p. 5 ff.)](/downloads/bericht-2018.pdf)
 
 ## 6. Staff structure
 
 The association has no staff.
 
+Number of volunteers: 2
+
 ## 7. Funding sources
 
- - [Yearly report 2018 (German, p. 9 f.)](/downloads/bericht-2018.pdf)
+see [Yearly report 2018 (German, p. 9 f.)](/downloads/bericht-2018.pdf)
+
+Financial assets at the end of 2018: 119,70 €
 
 ## 8. Use of funds
 
- - [Yearly report 2018 (German, p. 9 f.)](/downloads/bericht-2018.pdf)
+see [Yearly report 2018 (German, p. 9 f.)](/downloads/bericht-2018.pdf)
 
 ## 9. Corporate relationships with third parties 
 
@@ -65,9 +73,9 @@ The information is based on the [yearly report of 2018 (German)](/downloads/beri
 
 ### People
 
- - membership fee by anonymous: 128 €
- - membership fee by anonymous: 50 €
- - membership fee by anonymous: 42 € 
+ - Anonymous membership fee: 128 €
+ - Anonymous membership fee: 50 €
+ - Anonymous membership fee: 42 € 
 
 ### Organisations
 

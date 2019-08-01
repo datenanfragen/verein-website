@@ -5,9 +5,11 @@
     "type": "page"
 }
 
-Damit Du uns vertrauen kannst, haben wir uns verpflichtet, unsere Abläufe, Finanzen und Entscheidungen so transparent wie möglich zu machen. Wir wollen deshalb Teil der [Initiative Transparente Zivilgesellschaft](https://www.transparency.de/mitmachen/initiative-transparente-zivilgesellschaft/) werden, die uns stichprobenartig kontrollieren kann und dafür sorgt, dass unser Versprechen zur transparenten Geschäftsführung kein leeres bleibt. Auf dieser Seite sind nun alle wichtigen Informationen zusammengefasst, die wir im Rahmen unseres Transparenzberichts veröffentlichen.
+<a href="https://www.transparency.de/mitmachen/initiative-transparente-zivilgesellschaft/"><img src="/img/logo-itz.svg" style="float: right; width: 40%; min-width: 200px; padding: 5px;"></a>
 
-Die Informationen sind auf dem Stand vom 2. April 2019.
+Damit Du uns vertrauen kannst, haben wir uns verpflichtet, unsere Abläufe, Finanzen und Entscheidungen so transparent wie möglich zu machen. Wir sind deshalb Teil der [Initiative Transparente Zivilgesellschaft](https://www.transparency.de/mitmachen/initiative-transparente-zivilgesellschaft/), die uns stichprobenartig kontrollieren kann und dafür sorgt, dass unser Versprechen zur transparenten Geschäftsführung kein leeres bleibt. Auf dieser Seite sind nun alle wichtigen Informationen zusammengefasst, die wir im Rahmen unseres Transparenzberichts veröffentlichen.
+
+Die Informationen sind auf dem Stand vom 01. August 2019.
 
 ## 1. Name, Sitz, Anschrift und Gründungsjahr
 Diese Informationen sind auch in unserem [Impressum]({{< ref "contact" >}}) zu finden.
@@ -40,22 +42,28 @@ Die Geschäftsführung des Vereins hat der [Vorstand](/vorstand) inne. Dieser be
  
  - Benjamin Altpeter, Vorsitzender
  - Lorenz Sieben, Vorsitzender
- 
+
+Aktuell sind keine Beisitzer_innen bestellt.
+
 ## 5. Tätigkeitsbericht
 
- - [Jahresbericht 2018 (S. 5 ff.)](/downloads/bericht-2018.pdf)
+s. [Jahresbericht 2018 (S. 5 ff.)](/downloads/bericht-2018.pdf)
 
 ## 6. Personalstruktur
 
 Der Verein beschäftigt kein Personal.
 
+Anzahl Ehrenamtliche: 2
+
 ## 7. Angaben zur Mittelherkunft
 
- - [Jahresbericht 2018 (S. 9 f.)](/downloads/bericht-2018.pdf)
+s. [Jahresbericht 2018 (S. 9 f.)](/downloads/bericht-2018.pdf)
+
+Vermögensstand Ende 2018: 119,70 €
 
 ## 8. Angaben zur Mittelverwendung
 
- - [Jahresbericht 2018 (S. 9 f.)](/downloads/bericht-2018.pdf)
+s. [Jahresbericht 2018 (S. 9 f.)](/downloads/bericht-2018.pdf)
 
 ## 9. Gesellschaftsrechtliche Verbundenheit mit Dritten
 
@@ -67,9 +75,9 @@ Die Informationen sind auf dem Stand des [Jahresberichts von 2018](/downloads/be
 
 ### Natürliche Personen
 
- - Mitgliedsbeitrag von anonym: 128 €
- - Mitgliedsbeitrag von anonym: 50 €
- - Mitgliedsbeitrag von anonym: 42 €
+ - Anonymer Mitgliedsbeitrag: 128 €
+ - Anonymer Mitgliedsbeitrag: 50 €
+ - Anonymer Mitgliedsbeitrag: 42 €
 
 ### Juristische Personen
 

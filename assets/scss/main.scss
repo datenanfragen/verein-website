@@ -135,6 +135,14 @@ table {
     }
 }
 
+footer {
+    a {
+        img:hover {
+            filter: brightness(80%) hue-rotate(-20deg);
+        }
+    }
+}
+
 .top-right-humaaan {
     float: right;
     height: 400px;
