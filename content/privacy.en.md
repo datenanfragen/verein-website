@@ -5,7 +5,7 @@
     "aliases": ["privacy-policy", "data-protection"]
 }
 
-Our privacy policy was last changed on Febuary 23, 2019.
+Our privacy policy was last changed on February 23, 2019.
 
 ## General remarks
 
@@ -25,7 +25,7 @@ This includes the data we collect and process from our member but also the data 
 
 In addition, this includes the websites [Datenanfragen.de](https://www.datenanfragen.de) and [datarequests.org](https://www.datarequests.org), as well as [verein.datenanfragen.de](https://verein.datenanfragen.de).
 
-The association's purpose is to support the general public in excercising their right to privacy (“right to informational self-determination”) by informing and advising them with all questions regarding personal data protection. We are bound by our constitution <!-- TODO: link once translation is publicly available --> in all our activities.
+The association's purpose is to support the general public in exercising their right to privacy (“right to informational self-determination”) by informing and advising them with all questions regarding personal data protection. We are bound by our constitution <!-- TODO: link once translation is publicly available --> in all our activities.
 
 With our websites Datenanfragen.de and datarequests.org, we want to help you exercise your right to privacy. In order to do so, we offer a generator that helps you automatically generate requests, a company database with contact data for privacy-related requests to many companies and educational material on subjects related to privacy and data protection.  
 Finally, the website verein.datenanfragen.de has information on the association and allows you to join or donate among other things.
@@ -151,7 +151,7 @@ The subscription is entirely voluntary for you. It is currently only available t
 
 ### External services
 
-In order to make our servives more interesting and efficient, we work with some external services.
+In order to make our services more interesting and efficient, we work with some external services.
 
 #### CoinGate
 We allow you to make payments to the association (especially donations and membership fees) through the payment gateway CoinGate. CoinGate is run by UAB Virtualios valiutos, A. Goštauto g. 8, LT-01108 Vilnius, Lithuania.  

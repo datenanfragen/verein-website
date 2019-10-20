@@ -19,13 +19,13 @@ In cases where we think the English translation may be ambiguous, we have refere
 
 **1.3** The financial year corresponds to the calendar year.
 
-**1.4** The association exclusively and directly pursures public benefit purposes as per the section “tax-privileged purposes” of the AO (German fiscal code).
+**1.4** The association exclusively and directly pursues public benefit purposes as per the section “tax-privileged purposes” of the AO (German fiscal code).
 
 ## 2. Purpose
 
 **2.1** The association’s purpose is to:
 
-a) support the general public in excercising their right to privacy (“right to informational self-determination”) by informing and advising them with all questions regarding personal data protection (as a fundamental human right as per Article 8(1) of the Charter of Fundamental Rights of the European Union) and to thus advance the democratic government in the digital area as well as the education of the general public, and  
+a) support the general public in exercising their right to privacy (“right to informational self-determination”) by informing and advising them with all questions regarding personal data protection (as a fundamental human right as per Article 8(1) of the Charter of Fundamental Rights of the European Union) and to thus advance the democratic government in the digital area as well as the education of the general public, and  
 b) provide information on data protection practices in companies and other organisations in order to protect the personal data of consumers and to this support consumer counselling and protection efforts with regards to digital networks.
 
 **2.2** These goals are achieved specifically by:

@@ -10,7 +10,7 @@ In order for you to be able to trust us, we pledged to be as transparent as poss
 This information has been last updated on August 1, 2019.
 
 ## 1. Name, registered seat, address and date of foundation
-This information is also avilable in our [imprint]({{< ref "contact" >}}).
+This information is also available in our [imprint]({{< ref "contact" >}}).
 
  - Name: Datenanfragen.de e.&thinsp;V.
  - Registered seat: Braunschweig, Germany
@@ -79,4 +79,4 @@ The information is based on the [yearly report of 2018 (German)](/downloads/beri
 
 ### Organisations
 
- No organsations contributed to our budget in 2018.
+ No organisations contributed to our budget in 2018.
