@@ -1,9 +1,58 @@
-# Force https
-http://verein.datenanfragen.de/*  https://verein.datenanfragen.de/:splat 301!
+/*/index.html /:splat
 
-# Configure language rewrites
-/*  /de/:splat 200
+/en/become-a-member https://www.datarequests.org/verein/become-a-member/
+/en/board https://www.datarequests.org/verein/board/
+/en/chair https://www.datarequests.org/verein/board/
+/en/constitution https://www.datarequests.org/verein/constitution/
+/en/contact https://www.datarequests.org/contact/
+/en/data-protection https://www.datarequests.org/privacy/
+/en/donate https://www.datarequests.org/donate/
+/en/membership https://www.datarequests.org/verein/become-a-member/
+/en/membership-fees https://www.datarequests.org/verein/membership-fees/
+/en/mission https://www.datarequests.org/verein/mission-statement/
+/en/mission-statement https://www.datarequests.org/verein/mission-statement/
+/en/press https://www.datarequests.org/verein/press/
+/en/privacy https://www.datarequests.org/privacy/
+/en/privacy-policy https://www.datarequests.org/privacy/
+/en/statute https://www.datarequests.org/verein/constitution/
+/en/statutes https://www.datarequests.org/verein/constitution/
+/en/thanks https://www.datarequests.org/verein/thanks/
+/en/transparency https://www.datarequests.org/verein/transparency/
+/en/vorstand https://www.datarequests.org/verein/board/
 
-# Set 404 pages
-/en/*  /en/404.html 404
-/*  /de/404.html 404
+/become-a-member https://www.datenanfragen.de/verein/mitglied-werden/
+/board https://www.datenanfragen.de/verein/vorstand/
+/chair https://www.datenanfragen.de/verein/vorstand/
+/constitution https://www.datenanfragen.de/verein/satzung/
+/contact https://www.datenanfragen.de/contact/
+/danke https://www.datenanfragen.de/verein/thanks/
+/datenschutz https://www.datenanfragen.de/datenschutz/
+/datenschutzerklaerung https://www.datenanfragen.de/datenschutz/
+/donate https://www.datenanfragen.de/spenden/
+/foerdermitgliedschaft https://www.datenanfragen.de/verein/mitglied-werden/
+/fördermitgliedschaft https://www.datenanfragen.de/verein/mitglied-werden/
+/gebuehrenordnung https://www.datenanfragen.de/verein/gebuehrenordnung/
+/gebührenordnung https://www.datenanfragen.de/verein/gebuehrenordnung/
+/membership https://www.datenanfragen.de/verein/mitglied-werden/
+/membership-fees https://www.datenanfragen.de/verein/gebuehrenordnung/
+/mission https://www.datenanfragen.de/verein/ziele/
+/mission-statement https://www.datenanfragen.de/verein/ziele/
+/mitgliedsbeitrag https://www.datenanfragen.de/verein/gebuehrenordnung/
+/mitgliedschaft https://www.datenanfragen.de/verein/mitglied-werden/
+/mitglied-werden https://www.datenanfragen.de/verein/mitglied-werden/
+/press https://www.datenanfragen.de/verein/press/
+/presse https://www.datenanfragen.de/verein/press/
+/privacy https://www.datenanfragen.de/datenschutz/
+/privacy-policy https://www.datenanfragen.de/datenschutz/
+/satzung https://www.datenanfragen.de/verein/satzung/
+/spenden https://www.datenanfragen.de/spenden/
+/thanks https://www.datenanfragen.de/verein/thanks/
+/transparency https://www.datenanfragen.de/verein/transparenz/
+/transparenz https://www.datenanfragen.de/verein/transparenz/
+/vorsitzende https://www.datenanfragen.de/verein/vorstand/
+/vorsitzender https://www.datenanfragen.de/verein/vorstand/
+/vorstand https://www.datenanfragen.de/verein/vorstand/
+/ziele https://www.datenanfragen.de/verein/ziele/
+
+/en/* https://www.datarequests.org/verein/:splat
+/* https://www.datenanfragen.de/verein/:splat
