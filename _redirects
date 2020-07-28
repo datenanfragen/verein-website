@@ -53,6 +53,7 @@
 /vorsitzender https://www.datenanfragen.de/verein/vorstand/
 /vorstand https://www.datenanfragen.de/verein/vorstand/
 /ziele https://www.datenanfragen.de/verein/ziele/
+/downloads/bericht-2018.pdf https://static.dacdn.de/docs/bericht-2018.pdf
 
 /en/* https://www.datarequests.org/verein/:splat
 /* https://www.datenanfragen.de/verein/:splat
