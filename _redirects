@@ -1,5 +1,3 @@
-/*/index.html /:splat
-
 /en/become-a-member https://www.datarequests.org/verein/become-a-member/
 /en/board https://www.datarequests.org/verein/board/
 /en/chair https://www.datarequests.org/verein/board/
@@ -19,6 +17,8 @@
 /en/thanks https://www.datarequests.org/verein/thanks/
 /en/transparency https://www.datarequests.org/verein/transparency/
 /en/vorstand https://www.datarequests.org/verein/board/
+/en/ https://www.datarequests.org/verein
+/en https://www.datarequests.org/verein
 
 /become-a-member https://www.datenanfragen.de/verein/mitglied-werden/
 /board https://www.datenanfragen.de/verein/vorstand/
@@ -55,5 +55,4 @@
 /ziele https://www.datenanfragen.de/verein/ziele/
 /downloads/bericht-2018.pdf https://static.dacdn.de/docs/bericht-2018.pdf
 
-/en/* https://www.datarequests.org/verein/:splat
-/* https://www.datenanfragen.de/verein/:splat
+/* https://www.datenanfragen.de/verein:splat
